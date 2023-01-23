@@ -11,7 +11,9 @@
 
 }
 
-
+.pointer {
+    cursor: pointer;
+}
 .max-container { 
     max-width: 1600px;
     margin: auto;
@@ -25,6 +27,8 @@
     border: 1px solid red !important;
 }
 
+
+/*********** DISPLAY ***********/
 .d-center {
     display: flex;
     justify-content: center;
@@ -38,6 +42,12 @@
 .d-end {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+
+.d-between {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
