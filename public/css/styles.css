@@ -71,18 +71,13 @@
     --rosa-c: #FB93A7C4;
 }
 
-.pointer {
-    cursor: pointer;
+/*********** MEDIA ***********/
+@media (max-width: 1600px) {
+    .max-container { 
+        max-width: 1200px;
+        margin: auto;
+    }
 }
-.max-container { 
-    max-width: 1600px;
-    margin: auto;
-}
-
-.width-max-content {
-    width: max-content;
-}
-
 
 /*********** DISPLAY ***********/
 .d-center {
@@ -100,7 +95,6 @@
     justify-content: flex-end;
     align-items: center;
 }
-
 .d-between {
     display: flex;
     justify-content: space-between;
@@ -108,13 +102,10 @@
 }
 
 /*********** POSITION ***********/
-
 .top-0 { top: 0 }
 .right-0 { right: 0 }
 .bottom-0 { bottom: 0 }
 .left-0 { left: 0 }
-
-
 
 /*********** FONT SIZE ***********/
 /* @font-face { font-family: Lato; src: url(../fonts/Lato.ttf); } */
@@ -138,12 +129,7 @@
 .fs-42 { font-size: 2.625rem; }
 .fs-44 { font-size: 2.75rem; }
 
-
-
-
-
 /*********** BORDERS ***********/
-
 .border { border: 1px solid red !important; }
 .border-cloudGrey { border: 1px solid var(--cloudGrey); }
 
@@ -151,22 +137,11 @@
     border-radius: 25px;
 }
 
-
 /*********** COLORS ***********/
 .violaPurple { color: var(--violaPurple)}
 
-
-
-
 /*********** BACKGROUND ***********/
 .bg-harp { background-color: var(--harp)}
-
-
-
-
-
-
-
 
 /*********** BUTTONS ***********/
 .custom-btn {
@@ -187,10 +162,19 @@
     color: var(--white);
 }
 
-
-
-
 /*********** Other ***********/
+
+.pointer {
+    cursor: pointer;
+}
+.max-container { 
+    max-width: 1600px;
+    margin: auto;
+}
+
+.width-max-content {
+    width: max-content;
+}
 
 .searchbar {
     border: 1px solid var(--cloudGrey);
