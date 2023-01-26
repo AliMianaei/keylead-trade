@@ -1,10 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Category from '../components/Category';
+import Header from '../components/Header';
+import PhotoBox from '../components/PhotoBox';
 
 const Home = () => {
   return (
     <>
-        <Navbar/>
+      <Header/>
+      <PhotoBox/>
+      <Category/>
     </>
   )
 }

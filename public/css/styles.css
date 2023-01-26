@@ -6,9 +6,69 @@
 }
 
 :root {
-    --viola: #6E467B;
+    --violaPurple: #6E467B;
+    --haiti: #150035;
+    --darkPurple: #35083D;
+    --darkIndigo: #1B1464;
+    --softPurple: #A37DB0;
+    --downriver: #132250;
+    --deepViolet: #4D2047;
+    --thistle: #CAB3D2;
+
+    --black: #000000;
+    --diesel: #000100;
+    --charcoalGrey: #3D3E42;
+    --riverBed: #49545A;
+    --vampireGrey: #525252;
+    --carbonGrey: #58595B;
+    --doveGrey: #6D6E71;
+    --smokeyGrey: #707070;
+    --steelGrey: #7C8088;
+    --granite: #808080;
+    --cloudGrey: #AFB2B9;
+    --aluminium: #ADADAD;
+    --ghost: #C4C8D4;
+    --kangaroo: #CACACA;
+    --iron: #D2D6DB;
+    --nebula: #D4D4D4;
+    --quillGrey:#D5D5D5;
+    --lightGrey: #D9DADD;
+    --mercury: #E0E3EC;
+    --platinum: #E1E2E3;
+    --carouselPink: #E9E0EC;
+    --harp: #EAEDF4;
+    --pearlBush: #E2E2E2;
+    --aquaHaze: #F3F3F3;
+    --pearl: #F4EFF5;
+    --milkWhite: #FAFBFD;
+    --seashell: #F0F0F0;
+    --desertStorm: #F7F7F7;
     --white: #FFFFFF;
 
+    --dawnPink: #EEE9E3;
+    --sunglow: #FEC623;
+    --brightGold: #FFC916;
+    --apricot: #FFBF60;
+    --rosyPink: #FA718B;
+    --rosa: #FB93A7;
+    --sunsetOrange: #FF5B55;
+    --coralRed: #FF4942;
+    --rubyRed: #FF1414;
+    --pictonBlue: #39A1FF;
+    --crystalBlue: #3FA9F5;
+    --aquaBlue: #00C9F8;
+    --frenchBlue: #0071BC;
+    --blueHosta: #53C4CE;
+    --downy: #68C9D2;
+    --aquaGreen: #2DE0B1;
+    --elfGreen: #00925D;
+
+    /*  OPACITY  */
+    --black-3: #00000030;
+    --quillGrey-9: #DCD3E09E;
+    --deepViolet-9: #4D204796;
+    --violaPurple-3: #6E467B33;
+    --rosa-c: #FB93A7C4;
 }
 
 .pointer {
@@ -21,10 +81,6 @@
 
 .width-max-content {
     width: max-content;
-}
-
-.border {
-    border: 1px solid red !important;
 }
 
 
@@ -51,12 +107,65 @@
     align-items: center;
 }
 
+/*********** POSITION ***********/
+
+.top-0 { top: 0 }
+.right-0 { right: 0 }
+.bottom-0 { bottom: 0 }
+.left-0 { left: 0 }
+
+
+
+/*********** FONT SIZE ***********/
+/* @font-face { font-family: Lato; src: url(../fonts/Lato.ttf); } */
+/* .font-lato { font-family: Lato, sans-serif; } */
+.bold { font-weight:bold; }
+.italic { font-style: italic; }
+.fs-8 { font-size: 0.5rem; }
+.fs-10 { font-size: 0.625rem; }
+.fs-12 { font-size: 0.75rem; }
+.fs-14 { font-size: 0.875rem; }
+.fs-16 { font-size: 1rem; }
+.fs-18 { font-size: 1.125rem; }
+.fs-20 { font-size: 1.25rem; }
+.fs-22 { font-size: 1.375rem; }
+.fs-24 { font-size: 1.5rem; }
+.fs-26 { font-size: 1.625rem; }
+.fs-28 { font-size: 1.75rem; }
+.fs-30 { font-size: 1.875rem; }
+.fs-32 { font-size: 2rem; }
+.fs-40 { font-size: 2.5rem; }
+.fs-42 { font-size: 2.625rem; }
+.fs-44 { font-size: 2.75rem; }
+
+
+
+
+
 /*********** BORDERS ***********/
 
+.border { border: 1px solid red !important; }
+.border-cloudGrey { border: 1px solid var(--cloudGrey); }
+
+.round-25 {
+    border-radius: 25px;
+}
 
 
 /*********** COLORS ***********/
-.viola { color: var(--viola)}
+.violaPurple { color: var(--violaPurple)}
+
+
+
+
+/*********** BACKGROUND ***********/
+.bg-harp { background-color: var(--harp)}
+
+
+
+
+
+
 
 
 /*********** BUTTONS ***********/
@@ -67,12 +176,48 @@
     border-radius: 50px;
     min-width: 140px;
     min-height: 40px;
-    padding: 0 15px;
+    padding: 0px 25px;
     font-weight: bold;
 }
 
-.btn-viola-fill {
-    border: 1px solid var(--viola);
-    background-color: var(--viola);
+.btn-violaPurple-fill {
+    border: 1px solid var(--violaPurple);
+    background: linear-gradient(180deg, var(--violaPurple), var(--darkPurple));
+    box-shadow: 0px 3px 3px var(--black-3);
     color: var(--white);
+}
+
+
+
+
+/*********** Other ***********/
+
+.searchbar {
+    border: 1px solid var(--cloudGrey);
+    border-radius: 25px;
+    min-height: 40px;
+}
+.searchBox {
+    outline: none;
+    border: none;
+}
+
+.product-item {
+    transition: 0.3s;
+    width: 119px;
+    height: 119px;
+    border: 0.5px solid var(--thistle);
+    border-radius: 4px;
+    background: linear-gradient(0deg, var(--white), var(--deepViolet-9));
+    box-shadow: 0 7px 10px -5px var(--violaPurple-3);
+}
+
+.image-wrapper {
+    transition: 0.1s;
+    width: 50%;
+    height: 50%;
+}
+.product-item:hover > .image-wrapper{
+    width: 53%;
+    height: 53%;
 }
