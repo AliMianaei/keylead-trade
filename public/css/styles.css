@@ -101,6 +101,12 @@
     align-items: center;
 }
 
+/*********** TRANSITION ***********/
+.transition-3 {
+    transition: 0.3s;
+}
+
+
 /*********** POSITION ***********/
 .top-0 { top: 0 }
 .right-0 { right: 0 }
@@ -130,8 +136,11 @@
 .fs-44 { font-size: 2.75rem; }
 
 /*********** BORDERS ***********/
-.border { border: 1px solid red !important; }
-.border-cloudGrey { border: 1px solid var(--cloudGrey); }
+.border { border: 1px solid red !important }
+.border-cloudGrey { border: 1px solid var(--cloudGrey) }
+.border-kangaroo { border: 1px solid var(--kangaroo) }
+
+
 
 .round-25 {
     border-radius: 25px;
@@ -139,9 +148,16 @@
 
 /*********** COLORS ***********/
 .violaPurple { color: var(--violaPurple)}
+.granite { color: var(--granite)}
+.smokeyGrey { color: var(--smokeyGrey)}
+
+
+
+
 
 /*********** BACKGROUND ***********/
 .bg-harp { background-color: var(--harp)}
+.bg-white { background-color: var(--white)}
 
 /*********** BUTTONS ***********/
 .custom-btn {
@@ -162,7 +178,16 @@
     color: var(--white);
 }
 
-/*********** Other ***********/
+
+
+/*********** SHADOW ***********/
+
+.shadow-Y3-black3 {
+    box-shadow: 0px 3px 3px var(--black-3);
+}
+
+
+/*********** OTHER ***********/
 
 .pointer {
     cursor: pointer;
@@ -204,4 +229,22 @@
 .product-item:hover > .image-wrapper{
     width: 53%;
     height: 53%;
+}
+
+.top-product-image {
+    overflow: hidden;
+    transition: 0.3s;
+    width:261px; 
+    height:175px;
+    border: 0.5px solid var(--kangaroo);
+    box-shadow: 0px 3px 10px var(--black-3);
+}
+
+.top-product:hover .image-holder{
+    padding: 5px !important;
+}
+
+.top-product:hover .smokeyGrey {
+    color: var(--darkPurple);
+    font-weight: bold;
 }

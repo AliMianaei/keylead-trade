@@ -1,0 +1,64 @@
+{
+    "topProducts": [
+        { 
+            "id": 0, 
+            "name": "Potato",
+            "transaction": "20",
+            "weight": "35",
+            "imgUrlTran": "/images/icons/delivering@2x.png",
+            "imgAltTran": "transaction icon",
+            "imgUrlKilo": "/images/icons/kilogram@2x.png",
+            "imgAltKilo": "Kilogram icon",
+            "imgUrl": "/images/products/potato.png",
+            "imgAlt": "Potato"
+        },
+        { 
+            "id": 1, 
+            "name": "Pistachio",
+            "transaction": "16",
+            "weight": "25",
+            "imgUrlTran": "/images/icons/delivering@2x.png",
+            "imgAltTran": "transaction icon",
+            "imgUrlKilo": "/images/icons/kilogram@2x.png",
+            "imgAltKilo": "Kilogram icon",
+            "imgUrl": "/images/products/pistachio.png",
+            "imgAlt": "Pistachio"
+        },
+        { 
+            "id": 2, 
+            "name": "Apple",
+            "transaction": "15",
+            "weight": "18",
+            "imgUrlTran": "/images/icons/delivering@2x.png",
+            "imgAltTran": "transaction icon",
+            "imgUrlKilo": "/images/icons/kilogram@2x.png",
+            "imgAltKilo": "Kilogram icon",
+            "imgUrl": "/images/products/apple.png",
+            "imgAlt": "Apple"
+        },
+        { 
+            "id": 3, 
+            "name": "Orange",
+            "transaction": "9",
+            "weight": "6",
+            "imgUrlTran": "/images/icons/delivering@2x.png",
+            "imgAltTran": "transaction icon",
+            "imgUrlKilo": "/images/icons/kilogram@2x.png",
+            "imgAltKilo": "Kilogram icon",
+            "imgUrl": "/images/products/orange.png",
+            "imgAlt": "Orange"
+        },
+        { 
+            "id": 4, 
+            "name": "Tomato",
+            "transaction": "7",
+            "weight": "5",
+            "imgUrlTran": "/images/icons/delivering@2x.png",
+            "imgAltTran": "transaction icon",
+            "imgUrlKilo": "/images/icons/kilogram@2x.png",
+            "imgAltKilo": "Kilogram icon",
+            "imgUrl": "/images/products/tomato.png",
+            "imgAlt": "Tomato"
+        }
+    ]
+}

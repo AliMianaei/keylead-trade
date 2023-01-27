@@ -8,7 +8,7 @@ const Category = () => {
     <section className='mb-4'>
           <main className="max-container pt-2 pt-lg-4 pb-0 pb-lg-2">
               <div className="row m-0">
-                <div className="col-12 overflow-auto">
+                <div className="col-12 overflow-auto pb-2">
                   <ul className='list-unstyled d-flex justify-content-between pb-2 m-0' style={{gap:'26px', width:'max-content', minWidth:'100%'}}>
                     {productsCategories.map(category => (
                         <li key={category.id} className='product-item d-center flex-column pointer'>
