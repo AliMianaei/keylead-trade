@@ -2,7 +2,7 @@ import React from 'react'
 
 import TopSellerRow from './TopSellerRow'
 
-const TopSeller = () => {
+const TopSellers = () => {
     return (
         <section className='mb-4 position-relative'>
             <div className="clipped-right-70 position-absolute zIndex-negative"> </div>
@@ -25,4 +25,4 @@ const TopSeller = () => {
     )
 }
 
-export default TopSeller
+export default TopSellers
