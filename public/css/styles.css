@@ -72,9 +72,9 @@
 }
 
 /*********** MEDIA ***********/
-@media (max-width: 1600px) {
+@media (max-width: 1500px) {
     .max-container { 
-        max-width: 1200px;
+        max-width: 1200px !important;
         margin: auto;
     }
 }
@@ -113,6 +113,22 @@
 .bottom-0 { bottom: 0 }
 .left-0 { left: 0 }
 
+
+/*********** POLYGON ***********/
+
+.clipped-right-70 {
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    background-color: var(--mercury);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
+}
+
+/*********** Z-INDEX ***********/
+.zIndex-negative { z-index:-1 }
+.zIndex-1 { z-index: 1 }
+
 /*********** FONT SIZE ***********/
 /* @font-face { font-family: Lato; src: url(../fonts/Lato.ttf); } */
 /* .font-lato { font-family: Lato, sans-serif; } */
@@ -139,25 +155,46 @@
 .border { border: 1px solid red !important }
 .border-cloudGrey { border: 1px solid var(--cloudGrey) }
 .border-kangaroo { border: 1px solid var(--kangaroo) }
+.border-kangaroo-half { border: 0.5px solid var(--kangaroo) }
+.border-smokeyGrey { border: 1px solid var(--smokeyGrey) }
+.border-rosa { border: 1px solid var(--rosa) }
+.border-aluminium { border: 1px solid var(--aluminium) }
+.border-mercury { border: 1px solid var(--mercury) }
 
 
 
-.round-25 {
-    border-radius: 25px;
-}
+
+
+
+
+
+
+.round-25 { border-radius: 25px }
+.circle { border-radius: 100%; }
 
 /*********** COLORS ***********/
 .violaPurple { color: var(--violaPurple)}
 .granite { color: var(--granite)}
 .smokeyGrey { color: var(--smokeyGrey)}
+.rosa { color: var(--rosa)}
+.sunsetOrange { color: var(--sunsetOrange)}
+.rubyRed { color: var(--rubyRed)}
+.elfGreen { color: var(--elfGreen)}
+
+
+
+
 
 
 
 
 
 /*********** BACKGROUND ***********/
-.bg-harp { background-color: var(--harp)}
 .bg-white { background-color: var(--white)}
+.bg-harp { background-color: var(--harp)}
+.bg-mercury { background-color: var(--mercury)}
+
+
 
 /*********** BUTTONS ***********/
 .custom-btn {
@@ -189,11 +226,14 @@
 
 /*********** OTHER ***********/
 
+.objectFit-cover {
+    object-fit: cover;
+}
 .pointer {
     cursor: pointer;
 }
 .max-container { 
-    max-width: 1600px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -247,4 +287,8 @@
 .top-product:hover .smokeyGrey {
     color: var(--darkPurple);
     font-weight: bold;
+}
+
+.top-seller-item:hover .objectFit-cover {
+    transform: scale(1.15);
 }

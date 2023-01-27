@@ -47,18 +47,6 @@
             "imgAltKilo": "Kilogram icon",
             "imgUrl": "/images/products/orange.png",
             "imgAlt": "Orange"
-        },
-        { 
-            "id": 4, 
-            "name": "Tomato",
-            "transaction": "7",
-            "weight": "5",
-            "imgUrlTran": "/images/icons/delivering@2x.png",
-            "imgAltTran": "transaction icon",
-            "imgUrlKilo": "/images/icons/kilogram@2x.png",
-            "imgAltKilo": "Kilogram icon",
-            "imgUrl": "/images/products/tomato.png",
-            "imgAlt": "Tomato"
         }
     ]
 }

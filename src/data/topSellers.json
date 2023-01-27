@@ -1,0 +1,82 @@
+{
+    "topSellers": [
+        { 
+            "id": 0, 
+            "productName": "Tomato",
+            "stock": true,
+            "percentage": "100",
+            "starRate": "5",
+            "price": "1.2",
+            "minQuantity": "1",
+            "maxQuantity": "5",
+            "country": "spain",
+            "imgUrl": "/images/products/tomato_old@2x.png",
+            "imgAlt": "Tomato"
+        },
+        { 
+            "id": 1, 
+            "productName": "Orange",
+            "stock": true,
+            "percentage": "98",
+            "starRate": "4.7",
+            "price": "2.5",
+            "minQuantity": "1",
+            "maxQuantity": "5",
+            "country": "italy",
+            "imgUrl": "/images/products/orange_old@2x.png",
+            "imgAlt": "Orange"
+        },
+        { 
+            "id": 2, 
+            "productName": "Avocado",
+            "stock": false,
+            "percentage": "96",
+            "starRate": "4.5",
+            "price": "2.5",
+            "minQuantity": "1",
+            "maxQuantity": "5",
+            "country": "Germany",
+            "imgUrl": "/images/products/avocado@2x.png",
+            "imgAlt": "Avocado"
+        },
+        { 
+            "id": 3, 
+            "productName": "Avocado",
+            "stock": false,
+            "percentage": "50",
+            "starRate": "4.5",
+            "price": "2.5",
+            "minQuantity": "1",
+            "maxQuantity": "5",
+            "country": "Germany",
+            "imgUrl": "/images/products/avocado@2x.png",
+            "imgAlt": "Avocado"
+        },
+        { 
+            "id": 4, 
+            "productName": "Avocado",
+            "stock": false,
+            "percentage": "50",
+            "starRate": "4.5",
+            "price": "2.5",
+            "minQuantity": "1",
+            "maxQuantity": "5",
+            "country": "Germany",
+            "imgUrl": "/images/products/avocado@2x.png",
+            "imgAlt": "Avocado"
+        },
+        { 
+            "id": 5, 
+            "productName": "Avocado",
+            "stock": false,
+            "percentage": "50",
+            "starRate": "4.5",
+            "price": "2.5",
+            "minQuantity": "1",
+            "maxQuantity": "5",
+            "country": "Germany",
+            "imgUrl": "/images/products/avocado@2x.png",
+            "imgAlt": "Avocado"
+        }
+    ]
+}
