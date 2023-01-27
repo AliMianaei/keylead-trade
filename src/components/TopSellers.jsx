@@ -14,10 +14,15 @@ const TopSellers = () => {
                         </h2>
                     </div>
                 </div>
-                <div className="row m-0 mb-5">
+                <div className="row m-0">
                     <div className="col-12 overflow-auto">
                         <TopSellerRow start={0}  end={2}/>
                         <TopSellerRow start={3}  end={5}/>
+                    </div>
+                </div>
+                <div className='row m-0 mb-5 text-end'>
+                    <div className="col-12">
+                        <button className='custom-btn btn-light'>Show all</button>
                     </div>
                 </div>
             </main>

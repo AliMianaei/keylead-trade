@@ -13,7 +13,7 @@ const Home = () => {
       <Category/>
       <TopProducts/>
       <TopSellers/>
-      <section className='' style={{height:'500px'}}> </section>
+      <section className='border' style={{height:'500px'}}> </section>
     </>
   )
 }

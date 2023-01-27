@@ -10,7 +10,7 @@ const TopSellerRow = ({start, end}) => {
     <ul className='list-unstyled d-flex justify-content-between m-0 pb-4 pb-xxl-5' style={{gap:'20px', width:'max-content', minWidth:'100%'}}>                           
         {topSellers.map((seller, index) => {
             return index >= start && index <= end && (
-                <li key={seller.id} className='top-seller-item border-kangaroo-half p-3 d-center bg-white' style={{width: '370px'}}>
+                <li key={seller.id} className='top-seller-item border-kangaroo-half p-3 d-center bg-white shadow-Y3-S10-black3' style={{width: '370px'}}>
                     <div className="h-100 overflow-hidden" style={{width:'140px'}}>
                         <img className='w-100 h-100 objectFit-cover transition-3' src={seller.imgUrl} alt={seller.imgAlt} />
                     </div>

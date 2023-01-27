@@ -215,12 +215,22 @@
     color: var(--white);
 }
 
+.btn-light {
+    border: 1px solid var(--platinum);
+    background: linear-gradient(180deg, var(--white), var(--mercury));
+    color: var(--violaPurple);
+
+}
+
 
 
 /*********** SHADOW ***********/
 
 .shadow-Y3-black3 {
     box-shadow: 0px 3px 3px var(--black-3);
+}
+.shadow-Y3-S10-black3 {
+    box-shadow: 0px 3px 10px var(--black-3);
 }
 
 
