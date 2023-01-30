@@ -49,8 +49,8 @@
     --sunglow: #FEC623;
     --brightGold: #FFC916;
     --apricot: #FFBF60;
-    --rosyPink: #FA718B;
     --rosa: #FB93A7;
+    --rosyPink: #FA718B;
     --sunsetOrange: #FF5B55;
     --coralRed: #FF4942;
     --rubyRed: #FF1414;
@@ -125,6 +125,31 @@
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
 }
 
+.subscription-polygon {
+    width: 100%;
+    height: 100%;
+    background-color: var(--violaPurple);
+}
+.polygon-sub-free {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 63%, 0% 75%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 63%, 0% 75%);
+}
+
+.polygon-sub-silver {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 60%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 60%);
+}
+
+.polygon-sub-gold {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 33%, 0% 45%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 33%, 0% 45%);
+}
+
+.polygon-sub-platinum {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 18%, 0% 30%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 18%, 0% 30%);
+}
+
 /*********** Z-INDEX ***********/
 .zIndex-negative { z-index:-1 }
 .zIndex-1 { z-index: 1 }
@@ -173,6 +198,7 @@
 .circle { border-radius: 100%; }
 
 /*********** COLORS ***********/
+.white { color: var(--white)}
 .violaPurple { color: var(--violaPurple)}
 .granite { color: var(--granite)}
 .smokeyGrey { color: var(--smokeyGrey)}
@@ -180,6 +206,9 @@
 .sunsetOrange { color: var(--sunsetOrange)}
 .rubyRed { color: var(--rubyRed)}
 .elfGreen { color: var(--elfGreen)}
+.rosyPink { color: var(--rosyPink)}
+
+
 
 
 
@@ -251,6 +280,10 @@
     width: max-content;
 }
 
+.minWidth-max-content {
+    min-width: max-content;
+}
+
 .searchbar {
     border: 1px solid var(--cloudGrey);
     border-radius: 25px;
@@ -302,3 +335,8 @@
 .top-seller-item:hover .objectFit-cover {
     transform: scale(1.15);
 }
+
+/* .subscription-signup {
+    background: url('../images/textbg/textbg-left@2x.png') no-repeat;
+    background-size: 100% 100%;
+} */
