@@ -2,7 +2,7 @@ import React from 'react'
 import Rating from 'react-rating'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 
-import topSell from '../data/topSellers.json'
+import topSell from '../../data/topSellers.json'
 
 const TopSellerRow = ({start, end}) => {
     const {topSellers} = topSell;

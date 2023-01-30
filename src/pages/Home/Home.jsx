@@ -1,10 +1,12 @@
 import React from 'react';
-import Category from '../../components/Category';
+
 import Header from '../../components/Header';
-import PhotoBox from '../../components/PhotoBox';
-import Subscription from '../../components/Subscription';
-import TopProducts from '../../components/TopProducts';
-import TopSellers from '../../components/TopSellers';
+import Category from './Category';
+import Innovation from './Innovation';
+import PhotoBox from './PhotoBox';
+import Subscription from './Subscription';
+import TopProducts from './TopProducts';
+import TopSellers from './TopSellers';
 
 const Home = () => {
   return (
@@ -15,6 +17,7 @@ const Home = () => {
       <TopProducts/>
       <TopSellers/>
       <Subscription/>
+      <Innovation/>
       <section className='border' style={{height:'500px'}}> </section>
     </>
   )

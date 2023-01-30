@@ -1,5 +1,5 @@
 import React from 'react'
-import topProd from '../data/topProducts.json'
+import topProd from '../../data/topProducts.json'
 
 const TopProducts = () => {
     const {topProducts} = topProd;
