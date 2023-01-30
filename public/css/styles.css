@@ -150,6 +150,18 @@
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 18%, 0% 30%);
 }
 
+.polygon-news-harp {
+    background-color: var(--harp);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 55%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 55%);
+}
+
+.polygon-news-ghost {
+    background-color: var(--ghost);
+    clip-path: polygon(0% 50%, 100% 30%, 100% 100%, 0% 75%);
+    -webkit-clip-path: polygon(0% 50%, 100% 30%, 100% 100%, 0% 75%);
+}
+
 /*********** Z-INDEX ***********/
 .zIndex-negative { z-index:-1 }
 .zIndex-1 { z-index: 1 }
@@ -175,6 +187,22 @@
 .fs-40 { font-size: 2.5rem; }
 .fs-42 { font-size: 2.625rem; }
 .fs-44 { font-size: 2.75rem; }
+
+
+
+/*********** TEXT ***********/
+.text-3-line {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-clamp: 3; 
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.text-justify {
+    text-align: justify;
+}
 
 /*********** BORDERS ***********/
 .border { border: 1px solid red !important }
