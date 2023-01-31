@@ -193,12 +193,33 @@
 /*********** TEXT ***********/
 .text-3-line {
     overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   line-clamp: 3; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 3; 
    -webkit-line-clamp: 3; /* number of lines to show */
    -webkit-box-orient: vertical;
 }
+
+.limit-text-row {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+   -webkit-box-orient: vertical;
+}
+
+.limit-3 {
+    line-clamp: 3; 
+   -webkit-line-clamp: 3;
+}
+.limit-2 {
+    line-clamp: 2; 
+   -webkit-line-clamp: 2;
+}
+.limit-1 {
+    line-clamp: 1; 
+   -webkit-line-clamp: 1;
+}
+
 
 .text-justify {
     text-align: justify;
@@ -246,10 +267,14 @@
 
 
 
+
+
+
 /*********** BACKGROUND ***********/
 .bg-white { background-color: var(--white)}
 .bg-harp { background-color: var(--harp)}
 .bg-mercury { background-color: var(--mercury)}
+.bg-carouselPink { background-color: var(--carouselPink)}
 
 
 
@@ -257,12 +282,27 @@
 .custom-btn {
     transition: 0.3s;
     overflow: hidden;
+    border: none;
     outline: none;
     border-radius: 50px;
-    min-width: 140px;
+    min-width: max-content;
     min-height: 40px;
     padding: 0px 25px;
     font-weight: bold;
+}
+
+.btn-violaPurple-fill {
+    border: 1px solid var(--violaPurple);
+    background: linear-gradient(180deg, var(--violaPurple), var(--darkPurple));
+    box-shadow: 0px 3px 3px var(--black-3);
+    color: var(--white);
+}
+
+.btn-rosyPink-fill {
+    /* border: 1px solid var(--rosyPink); */
+    background: linear-gradient(180deg, var(--rosa-c), var(--rosyPink));
+    box-shadow: 0px 3px 3px var(--black-3);
+    color: var(--white);
 }
 
 .btn-violaPurple-fill {
@@ -276,7 +316,6 @@
     border: 1px solid var(--platinum);
     background: linear-gradient(180deg, var(--white), var(--mercury));
     color: var(--violaPurple);
-
 }
 
 

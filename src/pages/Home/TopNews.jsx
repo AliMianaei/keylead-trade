@@ -10,7 +10,7 @@ const TopNews = () => {
                 <div className="col-12"> <h2 className='granite fs-28'>{`${'Article & News'}`}</h2> </div>
 
                 <div className="col-12 col-md-4 py-4">
-                    <div className='shadow-Y3-S10-black3 bg-white m-auto m-md-0 me-md-auto p-4' style={{maxWidth:'325px'}}>
+                    <div className='shadow-Y3-S10-black3 bg-white m-auto m-md-0 me-md-auto p-4' style={{maxWidth:'360px'}}>
                         <div className="m-auto objectFit-cover mb-3" style={{maxWidth:'211px'}}>
                             <img className='d-block w-100 '  src="/images/products/orange_old@2x.png" alt="" />
                         </div>
@@ -23,7 +23,7 @@ const TopNews = () => {
                 </div>
 
                 <div className="col-12 col-md-4 py-4">
-                    <div className='shadow-Y3-S10-black3 bg-white m-auto p-4' style={{maxWidth:'325px'}}>
+                    <div className='shadow-Y3-S10-black3 bg-white m-auto p-4' style={{maxWidth:'360px'}}>
                         <div className="m-auto objectFit-cover mb-3" style={{maxWidth:'211px'}}>
                             <img className='d-block w-100 '  src="/images/products/tomato_old@2x.png" alt="" />
                         </div>
@@ -36,7 +36,7 @@ const TopNews = () => {
                 </div>
 
                 <div className="col-12 col-md-4 py-4">
-                    <div className='shadow-Y3-S10-black3 bg-white m-auto m-md-0 ms-md-auto p-4' style={{maxWidth:'325px'}}>
+                    <div className='shadow-Y3-S10-black3 bg-white m-auto m-md-0 ms-md-auto p-4' style={{maxWidth:'360px'}}>
                         <div className="m-auto objectFit-cover mb-3" style={{maxWidth:'211px'}}>
                             <img className='d-block w-100 '  src="/images/products/orange_old@2x.png" alt="" />
                         </div>

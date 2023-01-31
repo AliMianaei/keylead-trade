@@ -8,6 +8,8 @@ import Subscription from './Subscription';
 import TopProducts from './TopProducts';
 import TopSellers from './TopSellers';
 import TopNews from './TopNews';
+import Events from './Events';
+import Statistics from './Statistics';
 
 const Home = () => {
   return (
@@ -20,7 +22,9 @@ const Home = () => {
       <Subscription/>
       <Innovation/>
       <TopNews/>
-      <section className='' style={{height:'500px'}}> </section>
+      <Events/>
+      <Statistics/>
+      <section className='border' style={{height:'500px'}}> </section>
     </>
   )
 }
