@@ -24,7 +24,7 @@ const languages = [
 
 const Header = () => {
   return (
-    <section className='mb-4'>
+    <section className='mb-2 mb-lg-4'>
         <main className='max-container'>
             <div className="row m-0 py-2 mb-2">
                 <div className="col-6">
@@ -75,11 +75,11 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="row m-0 py-1">
-                <div className="col-12 col-lg-5">
+            <div className="row m-0">
+                <div className="col-12 col-lg-5 mb-2">
                     <Searchbar/>
                 </div>
-                <div className="col-12 col-lg-7 d-flex justify-content-start justify-content-xl-end" style={{overflowX: 'auto'}}>
+                <div className="py-2 col-12 col-lg-7 d-flex justify-content-start justify-content-xl-end" style={{overflowX: 'auto'}}>
                     <Navbar/>
                 </div>
             </div>
