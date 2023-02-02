@@ -10,7 +10,7 @@ const languages = [
         value: 'en', 
         label:  <div className='d-flex justify-content-around align-items-center'>
                     <span>EN</span> 
-                    <img src='/images/icons/flags/en.png' width='20px'/> 
+                    <img src='/images/icons/flags/en.png' alt="" width='20px'/> 
                 </div>
     },
     // {

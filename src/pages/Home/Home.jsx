@@ -10,6 +10,7 @@ import TopSellers from './TopSellers';
 import TopNews from './TopNews';
 import Events from './Events';
 import Statistics from './Statistics';
+import SuppliersRegion from './SuppliersRegion';
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <TopNews/>
       <Events/>
       <Statistics/>
+      <SuppliersRegion/>
       <section className='border' style={{height:'500px'}}> </section>
     </>
   )

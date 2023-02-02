@@ -162,6 +162,21 @@
     -webkit-clip-path: polygon(0% 50%, 100% 30%, 100% 100%, 0% 75%);
 }
 
+.polygon-region-pearl {
+    background-color: var(--pearl);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 0% 75%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 0% 75%);
+}
+
+.polygon-region-quillGrey-9 {
+    background-color: var(--quillGrey-9);
+    clip-path: polygon(0% 75%, 100% 40%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 75%, 100% 40%, 100% 100%, 0% 100%);
+}
+
+
+
+
 /*********** Z-INDEX ***********/
 .zIndex-negative { z-index:-1 }
 .zIndex-1 { z-index: 1 }
@@ -256,6 +271,7 @@
 .rubyRed { color: var(--rubyRed)}
 .elfGreen { color: var(--elfGreen)}
 .rosyPink { color: var(--rosyPink)}
+.haiti { color: var(--haiti) !important}
 
 
 
@@ -328,6 +344,32 @@
 .shadow-Y3-S10-black3 {
     box-shadow: 0px 3px 10px var(--black-3);
 }
+
+
+
+/*********** SCROLL ***********/
+
+/* width */
+.countries-list::-webkit-scrollbar {
+    width: 8px;
+
+}
+  
+  /* Track */
+  .countries-list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  .countries-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  .countries-list::-webkit-scrollbar-thumb:hover {
+    background: #999;
+  }
 
 
 /*********** OTHER ***********/
@@ -407,3 +449,7 @@
     background: url('../images/textbg/textbg-left@2x.png') no-repeat;
     background-size: 100% 100%;
 } */
+
+.region-link:hover > * {
+    color: var(--softPurple) !important;
+}
