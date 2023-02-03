@@ -11,6 +11,7 @@ import TopNews from './TopNews';
 import Events from './Events';
 import Statistics from './Statistics';
 import SuppliersRegion from './SuppliersRegion';
+import Footer from '../../components/Footer';
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
       <Events/>
       <Statistics/>
       <SuppliersRegion/>
-      <section className='border' style={{height:'500px'}}> </section>
+      <Footer/>
     </>
   )
 }

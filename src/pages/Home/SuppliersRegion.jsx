@@ -1,4 +1,5 @@
 import React from 'react'
+import FollowUs from '../../components/FollowUs';
 
 const countries = [ 
     {name: 'Afghanistan', code: 'AF'}, 
@@ -264,7 +265,7 @@ const SuppliersRegion = () => {
                     <div className="countries-list col-12 overflow-auto" style={{height:'500px'}}>  
                         <ul className='row list-unstyled'>
                             {countries.map((country, index) => (
-                                <li key={index} className='col-6 col-md-4 col-xl-3 py-3'>
+                                <li key={index} className='col-12 col-sm-6 col-md-4 col-xl-3 py-3'>
                                     <a href={`#${country.code}`} className='region-link d-inline-block pe-2 text-decoration-none haiti'> 
                                     <i className="fa fa-map-marker fs-24 me-2" aria-hidden="true"></i>
                                         <span className='fs-20'>{country.name}</span>
@@ -277,13 +278,9 @@ const SuppliersRegion = () => {
             </main>
         </section>
 
-        <div className="max-container mb-5 d-center flex-column">
-            <div style={{width:'45px', height:'175px', backgroundColor:'red'}}></div>
-            <h2 className='granite fs-28'>Follow us on Social Media</h2>
-            <h2 className='granite fs-28'>for</h2>
-            <div className="mb-4">
-                <img src="/images/textbg/textbg-rectangle-text@2x.png" alt="" width='213px' height='213px' />
-            </div>
+        <div className="max-container mb-5">
+            <div className='m-auto' style={{width:'45px', height:'175px', backgroundColor:'red'}}></div>
+           <FollowUs/>
         </div>
     </>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Select from 'react-select'
 import Logo from './Logo';
 import Navbar from './Navbar';
@@ -71,7 +72,9 @@ const Header = () => {
                     </div>
 
                     <div className='ms-5 d-none d-md-block'>
-                        <button className='custom-btn btn-violaPurple-fill'>Add an advertisement</button>
+                        <Link to='/advertise' className='d-center text-decoration-none round-50'>
+                            <button className='custom-btn btn-violaPurple-fill'>Add an advertisement</button>
+                        </Link>
                     </div>
                 </div>
             </div>
