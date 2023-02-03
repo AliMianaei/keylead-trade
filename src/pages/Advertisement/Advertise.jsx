@@ -27,15 +27,16 @@ const Advertise = () => {
 
                 <div className="row m-0">
                   <div className="col-12">
-                    <div className='mb-4 d-flex' style={{borderBottom:'1px solid gray'}}>
+                    <div className='mb-2 d-sm-flex' style={{borderBottom:'1px solid gray'}}>
                       <Link to="/advertise/seller" className="text-decoration-none d-inline-block">
                         <button className={`custom-btn-rect ${pathname === '/advertise' || pathname === '/advertise/' || pathname === '/advertise/seller' || pathname === '/advertise/seller/' ? 'btn-violaPurple-fill' : 'btn-light'}`}>Seller</button>
                       </Link>
                       <Link to="/advertise/buyer" className="text-decoration-none d-inline-block">
                         <button className={`custom-btn-rect ${pathname === '/advertise/buyer' || pathname === '/advertise/buyer/' ? 'btn-violaPurple-fill' : 'btn-light'}`}>Buyer</button>
                       </Link>
-                      <span className='rosyPink fs-18 ms-auto'>Please fill out all required fields marked with *</span>
+                      <span className='rosyPink fs-18 ms-auto d-none d-sm-block'>Please fill out all required fields marked with *</span>
                     </div>
+                    <span className='rosyPink fs-18 d-block d-sm-none mb-2'>Please fill out all required fields marked with *</span>
                     <div className="">
                       <Outlet/>
                     </div>
