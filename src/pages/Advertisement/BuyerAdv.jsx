@@ -2,7 +2,7 @@ import React from 'react'
 
 const BuyerAdv = () => {
   return (
-    <div>BuyerAdv</div>
+    <div style={{height:'300px'}}>Buyer</div>
   )
 }
 

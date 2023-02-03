@@ -1,8 +1,11 @@
 import React from 'react'
+import SelectBox from '../../components/SelectBox'
 
 const SellerAdv = () => {
   return (
-    <div>SellerAdv</div>
+    <div style={{height:'300px'}}>
+        <SelectBox/>
+    </div>
   )
 }
 

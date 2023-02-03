@@ -37,7 +37,7 @@ const Advertise = () => {
                       <span className='rosyPink fs-18 ms-auto d-none d-sm-block'>Please fill out all required fields marked with *</span>
                     </div>
                     <span className='rosyPink fs-18 d-block d-sm-none mb-2'>Please fill out all required fields marked with *</span>
-                    <div className="">
+                    <div className="mt-5">
                       <Outlet/>
                     </div>
                   </div>

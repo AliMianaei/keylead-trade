@@ -27,6 +27,7 @@
     --granite: #808080;
     --cloudGrey: #AFB2B9;
     --aluminium: #ADADAD;
+    --lily: #BBAFBF;
     --ghost: #C4C8D4;
     --kangaroo: #CACACA;
     --iron: #D2D6DB;
@@ -315,8 +316,7 @@
 .bg-harp { background-color: var(--harp)}
 .bg-mercury { background-color: var(--mercury)}
 .bg-carouselPink { background-color: var(--carouselPink)}
-
-
+.bg-lily { background-color: var(--lily)}
 
 /*********** BUTTONS ***********/
 .custom-btn {
