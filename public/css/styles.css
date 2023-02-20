@@ -107,7 +107,6 @@
     transition: 0.3s;
 }
 
-
 /*********** POSITION ***********/
 .top-0 { top: 0 }
 .right-0 { right: 0 }
@@ -271,6 +270,9 @@
 .border-rosa { border: 1px solid var(--rosa) }
 .border-aluminium { border: 1px solid var(--aluminium) }
 .border-mercury { border: 1px solid var(--mercury) }
+.border-thistle { border: 1px solid var(--thistle) }
+
+
 
 
 
@@ -284,6 +286,12 @@
 .round-25 { border-radius: 25px }
 .round-50 { border-radius: 50px }
 .circle { border-radius: 100%; }
+.resize-none {
+    resize: none;
+}
+.outline-none {
+    outline: none;
+}
 
 /*********** COLORS ***********/
 .white { color: var(--white)}
@@ -317,6 +325,15 @@
 .bg-mercury { background-color: var(--mercury)}
 .bg-carouselPink { background-color: var(--carouselPink)}
 .bg-lily { background-color: var(--lily)}
+.bg-violaPurple { background-color: var(--violaPurple)}
+.bg-coralRed { background-color: var(--coralRed)}
+.bg-softPurple { background-color: var(--softPurple)}
+.bg-sunsetOrange { background-color: var(--sunsetOrange)}
+
+
+
+
+
 
 /*********** BUTTONS ***********/
 .custom-btn {
@@ -486,4 +503,25 @@
 
 .region-link:hover > * {
     color: var(--softPurple) !important;
+}
+
+.sellerAdv {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    justify-content: space-between;
+}
+
+.bio-label {
+    width: 150px;
+    height: 50px;
+}
+
+.handleImageBtn {
+    transition: 0.3s;
+    max-height: 0;
+}
+
+.uploadedImage:hover > .handleImageBtn {
+    max-height: 200px;
 }

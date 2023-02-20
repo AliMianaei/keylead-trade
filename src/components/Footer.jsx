@@ -88,8 +88,8 @@ const Footer = () => {
             </div>
 
             <div className="row m-0">
-                {/* <div className="col-12 d-center py-4" >Copyright © 2022-2023 <span className='violaPurple bold px-1 pointer'> KEYLEAD </span> Holding</div>    */}
-                <div className="col-12 d-center py-4" >Copyright © 2022-2023 KEYLEAD Holding</div>   
+                <div className="col-12 text-center py-4" >Copyright © 2022-2023<span className='violaPurple bold pointer'> KEYLEAD </span>Holding</div>   
+                {/* <div className="col-12 d-center py-4" >Copyright © 2022-2023 KEYLEAD Holding</div>    */}
             </div>
 
         </main>
