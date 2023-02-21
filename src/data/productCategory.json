@@ -4,48 +4,56 @@
             "id": 0, 
             "name": "Fruits",
             "imgUrl": "/images/icons-product/fruit@2x.png",
+            "imgUrlWhite": "/images/icons-product/fruit-white@2x.png",
             "imgAlt": "Fruits"
         },
         { 
             "id": 1, 
             "name": "Vegetables",
             "imgUrl": "/images/icons-product/vegetable@2x.png",
+            "imgUrlWhite": "/images/icons-product/vegetable-white@2x.png",
             "imgAlt": "Vegetables"
         },
         { 
             "id": 2, 
             "name": "Mushrooms",
             "imgUrl": "/images/icons-product/mushroom@2x.png",
+            "imgUrlWhite": "/images/icons-product/mushroom-white@2x.png",
             "imgAlt": "Mushrooms"
         },
         { 
             "id": 3, 
             "name": "Cereal",
             "imgUrl": "/images/icons-product/cereal@2x.png",
+            "imgUrlWhite": "/images/icons-product/cereal-white@2x.png",
             "imgAlt": "Cereal"
         },
         { 
             "id": 4, 
             "name": "Nuts",
             "imgUrl": "/images/icons-product/pistachio@2x.png",
+            "imgUrlWhite": "/images/icons-product/pistachio-white@2x.png",
             "imgAlt": "Nuts"
         },
         { 
             "id": 5, 
             "name": "Herbs/Spices",
             "imgUrl": "/images/icons-product/herb@2x.png",
+            "imgUrlWhite": "/images/icons-product/herb-white@2x.png",
             "imgAlt": "Herbs"
         },
         { 
             "id": 6, 
             "name": "Oil Plants",
             "imgUrl": "/images/icons-product/olive@2x.png",
+            "imgUrlWhite": "/images/icons-product/olive-white@2x.png",
             "imgAlt": "Oil Plants"
         },
         { 
             "id": 7, 
             "name": "Preserved Foods",
             "imgUrl": "/images/icons-product/honey@2x.png",
+            "imgUrlWhite": "/images/icons-product/honey-white@2x.png",
             "imgAlt": "Preserved Foods"
         }
     ]

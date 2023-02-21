@@ -114,6 +114,10 @@
 .left-0 { left: 0 }
 
 
+.rotate-45 {
+    transform: rotate(45deg);
+}
+
 /*********** POLYGON ***********/
 
 .clipped-right-70 {
@@ -330,7 +334,13 @@
 .bg-softPurple { background-color: var(--softPurple)}
 .bg-sunsetOrange { background-color: var(--sunsetOrange)}
 
+.gradient-lightPurple {
+    background: linear-gradient(0deg, var(--white), var(--deepViolet-9));
+}
 
+.gradient-darkPurple {
+    background: linear-gradient(0deg, var(--violaPurple), var(--darkPurple));
+}
 
 
 
@@ -364,6 +374,14 @@
     box-shadow: 0px 3px 3px var(--black-3);
     color: var(--white);
 }
+
+.btn-softPurple-fill {
+    border: 1px solid var(--softPurple);
+    background: linear-gradient(180deg, var(--softPurple), var(--violaPurple));
+    /* box-shadow: 0px 3px 3px var(--black-3); */
+    color: var(--white);
+}
+
 
 .btn-rosyPink-fill {
     /* border: 1px solid var(--rosyPink); */
@@ -460,7 +478,7 @@
     height: 119px;
     border: 0.5px solid var(--thistle);
     border-radius: 4px;
-    background: linear-gradient(0deg, var(--white), var(--deepViolet-9));
+    /* background: linear-gradient(0deg, var(--white), var(--deepViolet-9)); */
     box-shadow: 0 7px 10px -5px var(--violaPurple-3);
 }
 
@@ -508,6 +526,14 @@
 .sellerAdv {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    justify-content: space-between;
+}
+.subCat-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+    /* grid-template-rows: 200px 200px; */
+    grid-auto-rows: 135px;
     grid-gap: 2rem;
     justify-content: space-between;
 }
