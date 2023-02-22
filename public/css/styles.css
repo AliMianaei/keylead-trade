@@ -300,7 +300,7 @@
 /*********** COLORS ***********/
 .white { color: var(--white)}
 .violaPurple { color: var(--violaPurple)}
-.darkPurple { color: var(--darkPurple)}
+.darkPurple { color: var(--darkPurple) !important}
 .granite { color: var(--granite)}
 .smokeyGrey { color: var(--smokeyGrey)}
 .rosa { color: var(--rosa)}
