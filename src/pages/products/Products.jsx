@@ -1,12 +1,17 @@
 import React from 'react'
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
-import Rating from 'react-rating'
+
 import Filter from '../../components/Filter'
 import FollowUs from '../../components/FollowUs'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 
+import Product from './product'
+
+
+
 const Products = () => {
+
+
   return (
     <>
         <Header/>
@@ -20,7 +25,7 @@ const Products = () => {
                 </div>
                 <div className='row m-0'>
                     <div className='col-12'>
-                        <div className=' d-flex align-items-center' style={{borderBottom:'1px solid gray'}}>
+                        <div className='d-flex align-items-center' style={{borderBottom:'1px solid gray'}}>
                             <div className='me-3'>
                                 <span>156 </span>
                                 <span>Result</span>
@@ -33,9 +38,9 @@ const Products = () => {
                     </div>
                 </div>
 
-
-                <div style={{borderBottom:'1px solid gray'}}>
-                    <div className="row m-0 my-5">
+                {/* PRODUCT */}
+                {/* <div className='position-relative'>
+                    <div className="row m-0 my-5 py-2">
                         <div className="col-12 col-sm-4 col-lg-3" >
                             <div className="">
                                 <img className='w-100 mb-4 objectFit-cover' src="/images/products/tomato_old@2x.png" alt="" />
@@ -56,7 +61,7 @@ const Products = () => {
                                 </div>
 
                                 <div className='d-between'>
-                                    <span className='fs-18'>12 Ratings</span>
+                                    <span className='fs-18'>Rating <span className="smokeyGrey fs-16">(12)</span></span>
                                     <Rating 
                                         readonly
                                         initialRating={3}
@@ -69,42 +74,51 @@ const Products = () => {
                         <div className="col-12 col-sm-8 col-lg-9 ps-0 ps-lg-5">
                             <h3 className='fs-32 violaPurple mb-4'>First Grade Apple</h3>
                             <div className="row m-0">
-
                                 <div className="col-5 p-0">
                                     <ul className='list-unstyled m-0'>
-                                        <li className='d-between'>
-                                            <span className=''>Variety</span>
-                                            <div className='flex-grow-1 px-3'> <div className="" style={{borderBottom:'1px dashed gray'}}></div> </div>
-                                            <span className=''>Fuji</span>
-                                        </li>
+                                        {productFeatures.map((feature, index) => {
+                                            return index <= 4 && <li key={feature.id} className='d-between fs-20 py-1'>
+                                                <span className='rosyPink'>{feature.title}</span>
+                                                <div className='flex-grow-1 px-3'> <div className="" style={{borderBottom:'1px dashed gray'}}></div> </div>
+                                                <span className='smokeyGrey'>{feature.value}</span>
+                                            </li> 
+                                        })}
                                     </ul>
                                 </div>
-
-
                                 <div className='col-2'></div>
-                                
                                 <div className="col-5 p-0">
                                     <ul className='list-unstyled m-0'>
-                                        <li className='d-between'>
-                                            <span className=''>Variety</span>
-                                            <div className='flex-grow-1 px-3'> <div className="" style={{borderBottom:'1px dashed gray'}}></div> </div>
-                                            <span className=''>Fuji</span>
-                                        </li>
+                                        {productFeatures.map((feature, index) => {
+                                            return index > 4 && <li key={feature.id} className='d-between fs-20 py-1'>
+                                                <span className='rosyPink'>{feature.title}</span>
+                                                <div className='flex-grow-1 px-3'> <div className="" style={{borderBottom:'1px dashed gray'}}></div> </div>
+                                                <span className='smokeyGrey'>{feature.value === true ? '✔' : feature.value}</span>
+                                            </li> 
+                                        })}
                                     </ul>
                                 </div>
-
                             </div>
-                            {/* <div className='border d-flex'>
-                                <ul className='list-unstyled border'>
-                                    <li className='border d-between'>
-                                        <span>Variety</span>
-                                        <span>Fuji</span>
-                                    </li>
-                                </ul>
-                            </div> */}
+                            <p className="my-3 product-description" style={{height:'150px', overflowY:'auto'}}>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, vel fugiat nisi numquam dolor mollitia in? Harum ad, reiciendis corrupti voluptas consequuntur, officia provident ullam quod distinctio totam molestiae omnis.
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius enim, a ipsa nulla amet vitae voluptates iste odio natus iusto aperiam expedita? Accusantium laboriosam, quisquam nisi sapiente corporis quibusdam perferendis.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate fugiat incidunt tenetur numquam labore veniam consequatur repellat. Aliquid qui accusantium nobis illum voluptas assumenda cumque consequatur, similique asperiores perferendis!
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, voluptatibus exercitationem eos maxime quis possimus ducimus nobis. Iusto reprehenderit dicta amet sit nostrum molestiae magnam vel, deleniti nobis consequuntur aliquam.
+                            </p>
+                            <div className="text-end">
+                                <button className='custom-btn btn-rosyPink-fill px-5'>Contact</button>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div className="row m-0">
+                        <div className="col-12">
+                            <div style={{borderBottom:'1px solid gray'}}></div>
+                        </div>
+                    </div>
+                </div> */}
+
+                <Product/>
+
+
             </main>
         </section>
 

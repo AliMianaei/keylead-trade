@@ -1,0 +1,46 @@
+{
+    "advertisement": [
+        {
+            "id": 0,
+            "name": "apple",
+            "createdAt": "Friday 23 Apr 2022",
+            "imgUrl": "/images/products/tomato_old@2x.png",
+            "verified": true,
+            "rate": "90",
+            "review": "15",
+            "avgReview": "4.2",
+            "variety": "fuji",
+            "price": "0.8 $/kg",
+            "quantity": "1-10 T",
+            "country": "united state",
+            "city": "los angeles",
+            "size": "+100mm",
+            "color": "green",
+            "origin": "brazil",
+            "packaging": "negotiable",
+            "bio": true,
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, vel fugiat nisi numquam dolor mollitia in? Harum ad, reiciendis corrupti voluptas consequuntur, officia provident ullam quod distinctio totam molestiae omnis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius enim, a ipsa nulla amet vitae voluptates iste odio natus iusto aperiam expedita? Accusantium laboriosam, quisquam nisi sapiente corporis quibusdam perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate fugiat incidunt tenetur numquam labore veniam consequatur repellat. Aliquid qui accusantium nobis illum voluptas assumenda cumque consequatur, similique asperiores perferendis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, voluptatibus exercitationem eos maxime quis possimus ducimus nobis. Iusto reprehenderit dicta amet sit nostrum molestiae magnam vel, deleniti nobis consequuntur aliquam."
+        },
+        {
+            "id": 1,
+            "name": "orange",
+            "createdAt": "Friday 23 Apr 2022",
+            "imgUrl": "",
+            "verified": true,
+            "rate": "90",
+            "review": "15",
+            "avgReview": "4.2",
+            "variety": "fuji",
+            "price": "0.8 $/kg",
+            "quantity": "1-10 T",
+            "country": "united state",
+            "city": "los angeles",
+            "size": "+100mm",
+            "color": "green",
+            "origin": "brazil",
+            "packaging": "negotiable",
+            "bio": false,
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, vel fugiat nisi numquam dolor mollitia in? Harum ad, reiciendis corrupti voluptas consequr aliquam."
+        }
+    ]
+}

@@ -419,24 +419,28 @@
 /*********** SCROLL ***********/
 
 /* width */
-.countries-list::-webkit-scrollbar {
+.countries-list::-webkit-scrollbar,
+.product-description::-webkit-scrollbar {
     width: 8px;
 
 }
   
   /* Track */
-  .countries-list::-webkit-scrollbar-track {
+  .countries-list::-webkit-scrollbar-track,
+  .product-description::-webkit-scrollbar-track {
     background: transparent;
   }
   
   /* Handle */
-  .countries-list::-webkit-scrollbar-thumb {
+  .countries-list::-webkit-scrollbar-thumb,
+  .product-description::-webkit-scrollbar-thumb {
     background: #ccc;
     border-radius: 50px;
   }
   
   /* Handle on hover */
-  .countries-list::-webkit-scrollbar-thumb:hover {
+  .countries-list::-webkit-scrollbar-thumb:hover,
+  .product-description::-webkit-scrollbar-thumb:hover {
     background: #999;
   }
 
@@ -550,4 +554,13 @@
 
 .uploadedImage:hover > .handleImageBtn {
     max-height: 200px;
+}
+
+.product-description {
+    overflow: hidden;
+    max-height: 150px;
+}
+
+.product-description:hover {
+    overflow-y: auto;
 }

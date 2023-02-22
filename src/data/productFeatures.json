@@ -1,0 +1,54 @@
+{
+    "productFeatures": [
+        {
+            "id": 0,
+            "title": "variety",
+            "value": "Fuji"
+        },
+        {
+            "id": 1,
+            "title": "price",
+            "value": "0.8 $/kg"
+        },
+        {
+            "id": 2,
+            "title": "quantity",
+            "value": "1-5 T"
+        },
+        {
+            "id": 3,
+            "title": "country",
+            "value": "Italy"
+        },
+        {
+            "id": 4,
+            "title": "city",
+            "value": "Torino"
+        },
+        {
+            "id": 5,
+            "title": "size",
+            "value": "+60 mm"
+        },
+        {
+            "id": 6,
+            "title": "color",
+            "value": "Red"
+        },
+        {
+            "id": 7,
+            "title": "origin",
+            "value": "Iran"
+        },
+        {
+            "id": 8,
+            "title": "packaging",
+            "value": "Negotiable"
+        },
+        {
+            "id": 9,
+            "title": "bio",
+            "value": true
+        }
+    ]
+}
