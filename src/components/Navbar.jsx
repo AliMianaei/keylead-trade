@@ -3,15 +3,18 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <ul className='list-unstyled d-flex  m-0 flex-nowrap text-center' style={{gap:'20px'}}>
-        <li className='py-1 pe-2 pointer' style={{minWidth:'max-content'}}>
-          <Link to='/products' className="text-decoration-none haiti">Products</Link>
-        </li>
-        <li className='py-1 px-2 pointer' style={{minWidth:'max-content'}}>Services</li>
-        <li className='py-1 px-2 pointer' style={{minWidth:'max-content'}}>Blog</li>
-        <li className='py-1 px-2 pointer' style={{minWidth:'max-content'}}>About us</li>
-        <li className='py-1 px-2 pointer' style={{minWidth:'max-content'}}>Contact us</li>
-        <li className='py-1 ps-2 pointer' style={{minWidth:'max-content', whiteSpace: 'nowrap'}}>Login / Register</li>
+    <ul className='d-flex flex-nowrap gap-3 list-unstyled m-0'>
+        <li className='minWidth-max-content'> <Link to='/products' className="nav-link d-center text-decoration-none haiti p-1 h-100">Products</Link> </li>
+        <li className='minWidth-max-content'> <Link to='/products' className="nav-link d-center text-decoration-none haiti p-1 h-100">Services</Link> </li>
+        <li className='minWidth-max-content'> <Link to='/products' className="nav-link d-center text-decoration-none haiti p-1 h-100">Blog</Link> </li>
+        <li className='minWidth-max-content'> <Link to='/products' className="nav-link d-center text-decoration-none haiti p-1 h-100">About us</Link> </li>
+        <li className='minWidth-max-content'> <Link to='/products' className="nav-link d-center text-decoration-none haiti p-1 h-100">Contact us</Link> </li>
+        <li className='minWidth-max-content'> <Link to='/products' className="nav-link d-center text-decoration-none p-1 h-100 bold text-success">Login / Register</Link> </li>
+        {/* <li className='minWidth-max-content'> 
+            <Link to='/products' className="nav-link d-center text-decoration-none haiti h-100 round-50">
+              <button className='custom-btn btn-rosyPink-fill'>Login / Register</button>
+            </Link>
+        </li> */}
     </ul>
   )
 }

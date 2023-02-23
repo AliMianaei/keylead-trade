@@ -124,6 +124,11 @@
     transform: rotate(45deg);
 }
 
+/*********** Dimension ***********/
+
+
+
+
 /*********** POLYGON ***********/
 
 .clipped-right-70 {
@@ -576,4 +581,8 @@
 
 .searchbar-result-item:hover {
     background-color: #f7f4fc87;
+}
+
+.nav-link:hover {
+    font-weight: bold;
 }

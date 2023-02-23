@@ -122,7 +122,7 @@ const Products = () => {
 
             </main>
         </section>
-        <TopSellers title='Similar Products' />
+        <TopSellers title='Similar Products' showAll={false} />
         <div className="mb-5">
           <FollowUs/>
         </div>

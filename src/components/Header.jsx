@@ -17,13 +17,13 @@ const Header = () => {
                 <div className="col-6">
                     <Logo/>
                 </div>
-                <div className='col-6 d-end'>
-                    <div className="d-flex" style={{gap:'30px'}}>
+                <div className='col-6 d-end' style={{gap:'2rem'}}>
+                    <div className="d-flex" style={{gap:'2rem'}}>
                         <SelectCurrency/>
                         <SelectLanguage/>
                     </div>
 
-                    <div className='ms-5 d-none d-md-block'>
+                    <div className='d-none d-md-block'>
                         <Link to='/advertise' className='d-center text-decoration-none round-50'>
                             <button className='custom-btn btn-violaPurple-fill'>Add an advertisement</button>
                         </Link>

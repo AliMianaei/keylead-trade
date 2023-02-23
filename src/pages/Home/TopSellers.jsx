@@ -2,7 +2,7 @@ import React from 'react'
 
 import TopSellerRow from './TopSellerRow'
 
-const TopSellers = ({title}) => {
+const TopSellers = ({title, showAll}) => {
     return (
         <section className='mb-4 position-relative'>
             <div className="clipped-right-70 position-absolute zIndex-negative"> </div>
@@ -20,7 +20,7 @@ const TopSellers = ({title}) => {
                         <TopSellerRow start={3}  end={5}/>
                     </div>
                 </div>
-                <div className='row m-0 text-end mb-2'>
+                <div className={`row m-0 text-end mb-2 ${!showAll && 'd-none'}`}>
                     <div className="col-12">
                         <button className='custom-btn btn-light'>Show all</button>
                     </div>
