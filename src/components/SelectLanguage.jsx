@@ -1,41 +1,15 @@
-import React, { useRef, useState } from 'react'
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react'
 import Select from 'react-select'
-import { selectLanguage_style } from './selectStyle'
 
-const languages = [
-    {
-        value: 'en', 
-        label:  <div className='d-flex justify-content-around align-items-center'>
-                <span>EN</span> 
-                <img src='/images/icons/flags/en.png' alt="" width='20px'/> 
-            </div>
-    },
-    {
-        value: 'it', 
-        label:  <div className='d-flex justify-content-around align-items-center'>
-                <span>IT</span> 
-                <img src='/images/icons/flags/it.png' width='20px'/> 
-            </div>
-    },
-    {
-        value: 'fA', 
-        label:  <div className='d-flex justify-content-around align-items-center'>
-                <span>Fa</span> 
-                <img src='/images/icons/flags/it.png' width='20px'/> 
-            </div>
-    }
-];
+import { selectLanguage_style } from './selectStyle'
+import { languages } from './selectOptions'
 
 const SelectLanguage = () => {
 
     const [screenSize, setScreenSize] = useState(window.innerWidth);
-    
+
     useEffect(() => {
-        window.addEventListener("resize", () => {
-            setScreenSize(window.innerWidth);
-            console.log(window.innerWidth)
-        });
+        window.addEventListener("resize", () => setScreenSize(window.innerWidth));
     }, []);
 
     return (

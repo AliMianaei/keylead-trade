@@ -80,6 +80,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
 /*********** DISPLAY ***********/
 .d-center {
     display: flex;
@@ -423,6 +429,12 @@
 *::-webkit-scrollbar{
     width: 8px;
     height: 4px;
+}
+*::-webkit-scrollbar:horizontal{
+    display: none;
+}
+*::-webkit-scrollbar:horizontal:hover{
+    display: block;
 }
   
   /* Track */

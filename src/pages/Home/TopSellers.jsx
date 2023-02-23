@@ -2,15 +2,15 @@ import React from 'react'
 
 import TopSellerRow from './TopSellerRow'
 
-const TopSellers = () => {
+const TopSellers = ({title}) => {
     return (
         <section className='mb-4 position-relative'>
             <div className="clipped-right-70 position-absolute zIndex-negative"> </div>
-            <main className="max-container h-100 py-2 py-lg-4">
-                <div className="row m-0 my-3">
+            <main className="max-container h-100 py-2 py-lg-4 mt-3 mb-5">
+                <div className="row m-0 mb-3">
                     <div className="col-12">
                         <h2 className="mb-3 granite fs-28">
-                            Top Sellers
+                            {title}
                         </h2>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ const TopSellers = () => {
                         <TopSellerRow start={3}  end={5}/>
                     </div>
                 </div>
-                <div className='row m-0 mb-5 text-end'>
+                <div className='row m-0 text-end mb-2'>
                     <div className="col-12">
                         <button className='custom-btn btn-light'>Show all</button>
                     </div>

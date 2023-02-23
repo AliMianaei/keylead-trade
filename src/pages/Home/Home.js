@@ -20,7 +20,7 @@ const Home = () => {
       <PhotoBox/>
       <Category/>
       <TopProducts/>
-      <TopSellers/>
+      <TopSellers title='Top Sellers' />
       <Subscription/>
       <Innovation/>
       <TopNews/>
