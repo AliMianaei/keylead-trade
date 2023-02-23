@@ -4,25 +4,9 @@ import Select from 'react-select'
 import Logo from './Logo';
 import Navbar from './Navbar';
 import Searchbar from './Searchbar';
+import SelectCurrency from './SelectCurrency';
+import SelectLanguage from './SelectLanguage';
 import { select_style_lang  } from './selectStyle'
-
-const languages = [
-    {
-        value: 'en', 
-        label:  <div className='d-flex justify-content-around align-items-center'>
-                    <span>EN</span> 
-                    <img src='/images/icons/flags/en.png' alt="" width='20px'/> 
-                </div>
-    },
-    // {
-    //     value: 'it', 
-    //     label:  <div className='d-flex justify-content-around align-items-center'>
-    //                 <span>IT</span> 
-    //                 <img src='/images/icons/flags/it.png' width='20px'/> 
-    //             </div>
-    // }
-];
-
 
 
 const Header = () => {
@@ -35,42 +19,8 @@ const Header = () => {
                 </div>
                 <div className='col-6 d-end'>
                     <div className="d-flex" style={{gap:'30px'}}>
-                        <Select 
-                                id='language' 
-                                name='language' 
-                                options={languages} 
-                                isSearchable={false}
-                                defaultValue={{ label:  
-                                                    <div className='d-flex justify-content-around align-items-center'>
-                                                        {/* <span>{localStorage.getItem('i18nextLng').substring(0, 2).toUpperCase()}</span>  */}
-                                                        <span>Currency</span> 
-                                                        {/* <img src={`/images/icons/flags/${localStorage.getItem('i18nextLng').substring(0, 2)}.png`} width='20px'/>  */}
-                                                    </div>, 
-                                                // value: localStorage.getItem('i18nextLng') 
-                                                value: 'Eur'
-                                            }} 
-                                styles={select_style_lang}
-                                // onChange={e => i18n.changeLanguage(e.value)}
-                            />
-                        <div className="">
-                            <Select 
-                                id='language' 
-                                name='language' 
-                                options={languages} 
-                                isSearchable={false}
-                                defaultValue={{ label:  
-                                                    <div className='d-flex justify-content-around align-items-center'>
-                                                        {/* <span>{localStorage.getItem('i18nextLng').substring(0, 2).toUpperCase()}</span>  */}
-                                                        <span>English</span> 
-                                                        {/* <img src={`/images/icons/flags/${localStorage.getItem('i18nextLng').substring(0, 2)}.png`} width='20px'/>  */}
-                                                    </div>, 
-                                                // value: localStorage.getItem('i18nextLng') 
-                                                value: 'En'
-                                            }} 
-                                styles={select_style_lang}
-                                // onChange={e => i18n.changeLanguage(e.value)}
-                            />
-                        </div>
+                        <SelectCurrency/>
+                        <SelectLanguage/>
                     </div>
 
                     <div className='ms-5 d-none d-md-block'>

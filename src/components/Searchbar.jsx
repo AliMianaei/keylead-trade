@@ -16,7 +16,7 @@ const Searchbar = () => {
               <img className='w-50' src="/images/icons/search@2x.png" alt="search icon" />
           </span>
       </div>
-      <div className={`position-absolute w-100 zIndex-1 p-2 ${searchActive ? 'd-block' : 'd-none'}`}>
+      <div className={`position-absolute w-100 zIndex-1 py-2 ${searchActive ? 'd-block' : 'd-none'}`}>
         <div className="searchbar-result-list border-kangaroo bg-white h-100" style={{borderRadius: '2px', overflowY: 'auto', maxHeight:'300px'}}>
           <ul className='mb-0 list-unstyled'>
             <SearchbarItems/>

@@ -57,7 +57,7 @@ const product = () => {
                                     {productFeatures.map((feature, index) => {
                                         return index <= 4 && <li key={feature.id} className='d-between fs-20 py-1'>
                                             <span className='rosyPink'>{feature.title}</span>
-                                            <div className='flex-grow-1 px-3'> <div className="" style={{borderBottom:'1px dashed gray'}}></div> </div>
+                                            <div className='flex-grow-1 px-3'> <div className="pt-1" style={{borderBottom:'1px dashed gray'}}></div> </div>
                                             <span className='smokeyGrey'>{adv[feature.title]}</span>
                                         </li> 
                                     })}
@@ -69,7 +69,7 @@ const product = () => {
                                     {productFeatures.map((feature, index) => {
                                         return index > 4 && <li key={feature.id} className='d-between fs-20 py-1'>
                                             <span className='rosyPink'>{feature.title}</span>
-                                            <div className='flex-grow-1 px-3'> <div className="" style={{borderBottom:'1px dashed gray'}}></div> </div>
+                                            <div className='flex-grow-1 px-3'> <div className="pt-1" style={{borderBottom:'1px dashed gray'}}></div> </div>
                                             <span className='smokeyGrey'>{adv[feature.title] === true ? 'yes' : adv[feature.title] === false ? 'no' : adv[feature.title]}</span>
                                         </li> 
                                     })}

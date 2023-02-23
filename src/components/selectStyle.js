@@ -1,63 +1,41 @@
-export const select_style = {
-    control: styles => ({ ...styles, backgroundColor: 'white', padding: '9px', borderColor:'#707070' }),
-    option: (styles, { data, isDisabled, isFocused, isSelected }) => {
-
-      return {
-        ...styles,
-        backgroundColor: isFocused ? '#ddd' : '',
-        color: isSelected ? '#BB342F' : '#333333',
-        fontWeight: isSelected ? 800 : 400 ,
-        cursor: isDisabled ? 'not-allowed' : 'default',
-      };
-    },
-    clearValue: () => {
-      // console.log('clear')
-    },
-};
-
-export const select_style_lang = {
-  control: styles => ({ ...styles, backgroundColor: 'white', borderColor:'#707070', width:'130px', color:'#ffffff', boxShadow:'none'}),
-  option: (styles, { data, isDisabled, isFocused, isSelected }) => {
-
+export const selectLanguage_style = {
+  control: (styles, {isFocused}) => ({ 
+    ...styles, 
+    backgroundColor: '#FFFFFF', 
+    border: '1px solid #CCCCCC', 
+    borderColor: isFocused && '#CCCCCC', 
+    width:'130px', 
+    color:'#FFFFFF', 
+    boxShadow:'none',
+    '&:hover': {
+      borderColor:'#CCCCCC', 
+    }
+  }),
+  menuList: (styles) => ({
+    ...styles,
+    padding: '0',
+  }),
+  menu: (styles) => ({
+    ...styles,
+    border: '1px solid #CCCCCC',
+    boxShadow:'none',
+    overflow:'hidden',
+  }),
+  option: (styles, {data, isDisabled, isFocused, isSelected}) => {
     return {
       ...styles,
-      backgroundColor: isFocused ? '#ddd' : '',
-      color: isSelected ? '#288FCA' : '#333333',
-      fontWeight: isSelected ? 800 : 400 ,
+      backgroundColor: '#FFFFFF',
+      backgroundColor: isSelected && '#6E467B22 !important',
+      borderBottom: '0.5px solid #EEEEEE',
+      color: isSelected ? '#6E467B' : '#888888',
+      fontWeight: isSelected ? 'bold' : 400 ,
       cursor: isDisabled ? 'not-allowed' : 'default',
+      ':hover': {
+        backgroundColor: isFocused && '#6E467B09',
+      }
     };
   },
-  clearValue: () => {
-    // console.log('clear')
-  },
-};
-
-export const select_style_profile = {
-
-  control: (styles, { data, isDisabled, isFocused, isSelected }) => {
-
-    return {
-      ...styles,
-      padding: '9px', 
-      borderColor:'#707070',
-      // backgroundColor: isFocused ? '#ddd' : '',
-      backgroundColor: isDisabled ? '#264E701A' : 'white',
-      color: isSelected ? '#264E70' : '#333333',
-      fontWeight: isSelected ? 800 : 400 ,
-      cursor: isDisabled ? 'not-allowed' : 'default',
-    };
-  },
-
-  option: (styles, { data, isDisabled, isFocused, isSelected }) => {
-
-    return {
-      ...styles,
-      backgroundColor: isFocused ? '#ddd' : '',
-      color: isSelected ? '#264E70' : '#333333',
-      fontWeight: isSelected ? 800 : 400 ,
-      cursor: isDisabled ? 'not-allowed' : 'default',
-    };
-  },
+  
   clearValue: () => {
     // console.log('clear')
   },
