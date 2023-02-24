@@ -20,21 +20,21 @@ export const languages = [
         value: 'en', 
         label:  <div className='d-flex justify-content-around align-items-center'>
                 <span>EN</span> 
-                <span class="fi fi-us"></span>
+                <span className="fi fi-us"></span>
             </div>
     },
     {
         value: 'it', 
         label:  <div className='d-flex justify-content-around align-items-center'>
                 <span>IT</span> 
-                <span class="fi fi-it"></span>
+                <span className="fi fi-it"></span>
             </div>
     },
     {
         value: 'fa', 
         label:  <div className='d-flex justify-content-around align-items-center'>
                 <span>FA</span> 
-                <span class="fi fi-ir"></span>
+                <span className="fi fi-ir"></span>
             </div>
     }
 ];

@@ -13,8 +13,15 @@ import Statistics from './Statistics';
 import SuppliersRegion from './SuppliersRegion';
 import Footer from '../../components/Footer';
 import Menubar from '../../components/Menubar';
+import { useLocation } from 'react-router';
 
 const Home = () => {
+  // const location = useLocation();
+  // const {pathname} = location;
+
+  const {pathname} = useLocation();
+
+  console.log(pathname)
   return (
     <div className='position-relative'>
       <Header/>
@@ -29,7 +36,7 @@ const Home = () => {
       <Statistics/>
       <SuppliersRegion/>
       <Footer/>
-      {/* <Menubar/> */}
+      <Menubar active={pathname} />
     </div>
   )
 }

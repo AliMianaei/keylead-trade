@@ -25,7 +25,7 @@ const SelectLanguage = () => {
                 />
             </div>
             <div className={screenSize <= 768 ? 'd-block' : 'd-none'}>
-                <span class="fi fi-us"></span>
+                <span className="fi fi-us"></span>
             </div>
         </>
     )
