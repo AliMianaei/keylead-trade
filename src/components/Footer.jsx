@@ -12,7 +12,7 @@ const Footer = () => {
         <main className="max-container pt-4">
             <div className="row m-0 mt-4">
                 <div className="col-12 col-sm-6 col-lg-3 order-1 order-lg-0 d-flex flex-column justify-content-lg-start mb-3 mb-sm-0">
-                    <div className='width-max-content mb-4'>
+                    <div className='width-max-content mb-4 mx-auto mx-sm-0'>
                         <h1 className='text-uppercase text-center mb-0 violaPurple fs-44'>Keylead</h1>
                         <h3 className='borderTop-darkPurple darkPurple mb-4 fs-22'>Food Products Exchange</h3>  
                         <div className="pt-3">
@@ -21,7 +21,7 @@ const Footer = () => {
                             </Link>  
                         </div>  
                     </div>
-                    <div className="mt-auto">
+                    <div className="mt-auto mb-3">
                         <h4 className='violaPurple fs-20 mb-3 text-start'>Follow us on</h4>
                         <ul className='d-flex flex-wrap list-unstyled mb-0 gap-4'>
                             <li className='qube-2half'> 
@@ -86,7 +86,7 @@ const Footer = () => {
                     </div>
                 </div>  
 
-                <div className="col-12 col-sm-6 col-lg-3 order-3 mt-lg-5 d-flex flex-column ps-xl-5">
+                <div className="col-12 col-sm-6 col-lg-3 order-3 mt-lg-5 d-flex flex-column ps-xl-5 mb-3">
                     <h3 className='violaPurple fs-22 mb-3'>We are here to help you!</h3>
                     <p className="mb-0 violaPurple" style={{overflowY:'auto', maxHeight:'250px'}}>Leverage our Comprehensive Keylead database to power your performance with data analysis, insight and Comprehensive</p>
                 </div>   

@@ -17,8 +17,8 @@ const Header = () => {
                 <div className="col-6">
                     <Logo/>
                 </div>
-                <div className='col-6 d-end' style={{gap:'2rem'}}>
-                    <div className="d-flex" style={{gap:'2rem'}}>
+                <div className='col-6 d-end gap-3'>
+                    <div className="d-flex gap-3">
                         <SelectCurrency/>
                         <SelectLanguage/>
                     </div>

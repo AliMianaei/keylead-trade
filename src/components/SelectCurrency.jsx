@@ -14,7 +14,7 @@ const SelectCurrency = () => {
 
     return (
         <>
-            <div className={screenSize > 768 ? 'd-block' : 'd-none'}>
+            <div className={`${screenSize > 767 ? 'd-block' : 'd-none'}`}>
                 <Select 
                     id='currency' 
                     name='currency' 
@@ -24,7 +24,7 @@ const SelectCurrency = () => {
                     styles={selectLanguage_style}
                 />
             </div>
-            <div className={screenSize <= 768 ? 'd-block' : 'd-none'}>
+            <div className={`circle qube-2half ${screenSize <= 767 ? 'd-center' : 'd-none'}`} style={{boxShadow: '0 0 3px 1px #ccc, 0 0 5px 1px #f5f5f5 inset'}}>
                 <i className="fa fa-usd" aria-hidden="true"></i>
             </div>
         </>
