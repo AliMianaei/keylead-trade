@@ -12,10 +12,11 @@ import Events from './Events';
 import Statistics from './Statistics';
 import SuppliersRegion from './SuppliersRegion';
 import Footer from '../../components/Footer';
+import Menubar from '../../components/Menubar';
 
 const Home = () => {
   return (
-    <>
+    <div className='position-relative'>
       <Header/>
       <PhotoBox/>
       <Category/>
@@ -28,7 +29,8 @@ const Home = () => {
       <Statistics/>
       <SuppliersRegion/>
       <Footer/>
-    </>
+      {/* <Menubar/> */}
+    </div>
   )
 }
 

@@ -34,7 +34,7 @@ const Header = () => {
                 <div className="col-12 col-lg-5 mb-2">
                     <Searchbar/>
                 </div>
-                <div className="py-2 col-12 col-lg-7 d-flex justify-content-start justify-content-xl-end" style={{overflowX: 'auto'}}>
+                <div className="py-2 col-12 col-lg-7 d-flex justify-content-start justify-content-lg-end" style={{overflowX: 'auto'}}>
                     <Navbar/>
                 </div>
             </div>

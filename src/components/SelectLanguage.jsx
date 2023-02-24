@@ -25,7 +25,7 @@ const SelectLanguage = () => {
                 />
             </div>
             <div className={screenSize <= 768 ? 'd-block' : 'd-none'}>
-                <img src='/images/icons/flags/en.png' alt="" width='20px'/> 
+                <span class="fi fi-us"></span>
             </div>
         </>
     )
