@@ -126,6 +126,10 @@
 
 /*********** Dimension ***********/
 
+.qube-2half {
+    width: 2.5rem;
+    height: 2.5rem;
+}
 
 
 
@@ -366,7 +370,7 @@
     border-radius: 50px;
     min-width: max-content;
     min-height: 40px;
-    padding: 0px 25px;
+    padding: 0px 1.5rem;
     font-weight: bold;
 }
 

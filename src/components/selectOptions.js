@@ -20,21 +20,21 @@ export const languages = [
         value: 'en', 
         label:  <div className='d-flex justify-content-around align-items-center'>
                 <span>EN</span> 
-                <img src='/images/icons/flags/en.png' alt="" width='20px'/> 
+                <span class="fi fi-us"></span>
             </div>
     },
     {
         value: 'it', 
         label:  <div className='d-flex justify-content-around align-items-center'>
                 <span>IT</span> 
-                <img src='/images/icons/flags/it.png' width='20px'/> 
+                <span class="fi fi-it"></span>
             </div>
     },
     {
         value: 'fa', 
         label:  <div className='d-flex justify-content-around align-items-center'>
                 <span>FA</span> 
-                <img src='/images/icons/flags/it.png' width='20px'/> 
+                <span class="fi fi-ir"></span>
             </div>
     }
 ];

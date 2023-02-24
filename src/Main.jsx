@@ -6,6 +6,9 @@ import Advertise from './pages/Advertisement/Advertise';
 import SellerAdv from './pages/Advertisement/SellerAdv';
 import BuyerAdv from './pages/Advertisement/BuyerAdv';
 import Products from './pages/products/Products';
+import FormLayout from './layouts/FormLayout';
+import Login from './pages/login/Login';
+import Register from './pages/register/Register';
 
 const Main = () => {
   return (
@@ -17,6 +20,13 @@ const Main = () => {
         <Route path="seller" element={<SellerAdv/>} />
         <Route path="buyer" element={<BuyerAdv/>} />
       </Route>
+
+      <Route element={<FormLayout/>}>
+        <Route path='login' element={<Login/>} />
+        <Route path='register' element={<Register/>} />
+      </Route>
+
+
     </Routes>
   )
 }
