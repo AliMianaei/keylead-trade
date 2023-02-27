@@ -109,6 +109,14 @@
 }
 
 /*********** TRANSITION ***********/
+.transition-1 {
+    transition: 0.1s;
+}
+
+.transition-2 {
+    transition: 0.2s;
+}
+
 .transition-3 {
     transition: 0.3s;
 }
@@ -126,9 +134,22 @@
 
 /*********** Dimension ***********/
 
+.minh-100 {
+    min-height: 100%;
+}
+
+.minh-100vh {
+    min-height: 100vh;
+}
+
 .qube-2half {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.qube-12rem {
+    width: 12rem;
+    height: 12rem;
 }
 
 
@@ -630,7 +651,7 @@
     color: var(--violaPurple);
 }
 .menubar-item.active {
-    color: var(--haiti);
+    color: var(--haiti) !important;
 }
 
 .menubar-item.deactive {
@@ -646,4 +667,37 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+
+
+.login-side-wrapper { padding:3% 17% }
+.side-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--violaPurple);
+    margin-bottom: 30px;
+}
+.aside-formLayout{
+    position: relative;
+    overflow-x: hidden;
+}
+
+.translateX-100 { transform: translateX(100%); } 
+
+.sel-btn {
+    height: 55px;
+    /* border-radius: 50px; */
+    background-color: #fff;
+    margin: 50px 0;
+}
+
+
+.main-layout {
+    display:flex; 
+    flex-direction:column; 
+    min-height: 100vh;
+}
+.mainLayout-main { 
+    flex:1 1 0 !important; 
 }

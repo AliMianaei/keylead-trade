@@ -5,7 +5,7 @@ const Menubar = ({active}) => {
   return (
     <>
         <section className="menubar d-lg-none">
-            <Link to='/c' className={`menubar-item ${active === '/c' ? 'active' : 'deactive'}`}>
+            <Link to='/' className={`menubar-item ${active === '/' ? 'active' : 'deactive'}`}>
                 <i className="fa fa-home fa-2x" aria-hidden="true"></i>
                 <span className='menubar-item-text'>Home</span>
             </Link>
@@ -21,7 +21,7 @@ const Menubar = ({active}) => {
                 <i className="fa fa-gift fa-2x" aria-hidden="true"></i>
                 <span className='menubar-item-text'>Package</span>
             </Link>
-            <Link to='/' className={`menubar-item ${active === '/' ? 'active' : 'deactive'}`}>
+            <Link to='/c' className={`menubar-item ${active === '/c' ? 'active' : 'deactive'}`}>
                 <i className="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
                 <span className='menubar-item-text'>Chat</span>
             </Link>

@@ -250,7 +250,7 @@ const countries = [
 const SuppliersRegion = () => {
   return (
     <>
-        <div className="max-container pt-5 pb-2">
+        <div className="max-container pt-5 pb-2 border">
             <div className="row m-0">
                 <div className="col-12"> 
                     <h2 className='granite fs-28'>Find the best B2B Suppliers by Country</h2>
@@ -278,7 +278,7 @@ const SuppliersRegion = () => {
             </main>
         </section>
 
-        <div className="max-container mb-5">
+        <div className="max-container">
             <div className='m-auto' style={{width:'45px', height:'175px', backgroundColor:'red'}}></div>
            <FollowUs/>
         </div>

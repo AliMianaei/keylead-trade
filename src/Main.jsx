@@ -6,13 +6,17 @@ import Advertise from './pages/Advertisement/Advertise';
 import SellerAdv from './pages/Advertisement/SellerAdv';
 import BuyerAdv from './pages/Advertisement/BuyerAdv';
 import Products from './pages/products/Products';
-import FormLayout from './layouts/FormLayout';
+// import FormLayout from './layouts/FormLayout';
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
+import MainLayout from './layouts/MainLayout';
 
 const Main = () => {
   return (
     <Routes>
+      
+
+      <Route element={<MainLayout/>}>
       <Route path='/' exact element={<Home/>} />
       <Route path='/products' element={<Products/>} />
       <Route path='advertise' element={<Advertise/>}>
@@ -21,7 +25,6 @@ const Main = () => {
         <Route path="buyer" element={<BuyerAdv/>} />
       </Route>
 
-      <Route element={<FormLayout/>}>
         <Route path='login' element={<Login/>} />
         <Route path='register' element={<Register/>} />
       </Route>

@@ -21,9 +21,9 @@ const Footer = () => {
                             </Link>  
                         </div>  
                     </div>
-                    <div className="mt-auto mb-3">
-                        <h4 className='violaPurple fs-20 mb-3 text-start'>Follow us on</h4>
-                        <ul className='d-flex flex-wrap list-unstyled mb-0 gap-4'>
+                    <div className="mt-2 mb-3">
+                        <h4 className='violaPurple fs-20 mb-3 text-sm-start text-center'>Follow us on</h4>
+                        <ul className='d-flex flex-wrap list-unstyled mb-0 gap-4 justify-content-center justify-content-sm-start'>
                             <li className='qube-2half'> 
                                 <a href="http://instagram.com" className='w-100 h-100 d-inline-block'>
                                     <img className='w-100 h-100' src="/images/icons-social/instagram@2x.png" alt="Keylead instagram" />
@@ -65,21 +65,21 @@ const Footer = () => {
                         <Searchbar/>
                     </div>
                     <div className="row">
-                        <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <div className="col-6 col-md-3 mb-3 mb-md-0 text-center text-sm-start">
                             <h5 className='rosyPink'>Events</h5>
                             <p className='mb-0'>Trade Shows</p>
                             <p className='mb-0'>Conferences</p>
                         </div>
-                        <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <div className="col-6 col-md-3 mb-3 mb-md-0 text-center text-sm-start">
                             <h5 className='rosyPink'>Privacy Policy</h5>
                             <p className='mb-0'>Trade Shows</p>
                             <p className='mb-0'>Conferences</p>
                         </div>
-                        <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <div className="col-6 col-md-3 mb-3 mb-md-0 text-center text-sm-start">
                             <h5 className='rosyPink'>B2B Solution</h5>
                             <p className='mb-0'>Trade Shows</p>
                             <p className='mb-0'>Conferences</p></div>
-                        <div className="col-6 col-md-3 mb-3 mb-md-0">
+                        <div className="col-6 col-md-3 mb-3 mb-md-0 text-center text-sm-start">
                             <h5 className='rosyPink'>Statistic</h5>
                             <p className='mb-0'>Trade Shows</p>
                             <p className='mb-0'>Conferences</p></div>
