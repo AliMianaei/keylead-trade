@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   return (
     <>
       <div className="d-flex mb-4">
@@ -40,9 +41,9 @@ const Register = () => {
             <div className="d-flex flex-column">
               <label htmlFor="password" className='mb-1 text-uppercase violaPurple fs-14'>password</label>
               <div className='form-input d-flex overflow-hidden'>
-                <input type={showPassword ? 'password' : 'text'} id='password' name='password' className='px-2 h-100 flex-grow-1 password-input' placeholder='password' />
+                <input type={showPassword ? 'text' : 'password'} id='password' name='password' className='px-2 h-100 flex-grow-1 password-input' placeholder='password' />
                 <div className='d-center px-2 pointer' style={{borderLeft: '1px solid #D9DADD'}} onClick={() => setShowPassword(!showPassword)}>
-                  <i className={`fa violaPurple ${showPassword ? 'fa-eye' : 'fa-eye-slash'}`} aria-hidden="true"></i>
+                  <i className={`fa violaPurple ${showPassword ? 'fa-eye-slash' : 'fa-eye'}`} aria-hidden="true"></i>
                 </div>
               </div>
               <div className="d-flex justify-content-between">
@@ -55,9 +56,9 @@ const Register = () => {
             <div className="d-flex flex-column">
               <label htmlFor="confirmPassword" className='mb-1 text-uppercase violaPurple fs-14'>confirm password</label>
               <div className='form-input d-flex overflow-hidden'>
-                <input type={showPassword ? 'password' : 'text'} id='confirmPassword' name='confirmPassword' className='px-2 h-100 flex-grow-1 password-input' placeholder='password' />
-                <div className='d-center px-2 pointer' style={{borderLeft: '1px solid #D9DADD'}} onClick={() => setShowPassword(!showPassword)}>
-                  <i className={`fa violaPurple ${showPassword ? 'fa-eye' : 'fa-eye-slash'}`} aria-hidden="true"></i>
+                <input type={showConfirmPassword ? 'text' : 'password'} id='confirmPassword' name='confirmPassword' className='px-2 h-100 flex-grow-1 password-input' placeholder='confirm password' />
+                <div className='d-center px-2 pointer' style={{borderLeft: '1px solid #D9DADD'}} onClick={() => setShowConfirmPassword(!showConfirmPassword)}>
+                  <i className={`fa violaPurple ${showConfirmPassword ? 'fa-eye-slash' : 'fa-eye'}`} aria-hidden="true"></i>
                 </div>
               </div>
               <div className="d-flex justify-content-between">
