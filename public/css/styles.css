@@ -762,3 +762,17 @@ input::-webkit-input-placeholder {
   
 }
 
+.fa-facebook-square {
+    background-color: #FFFFFF;
+    color:#3B5998;
+}
+
+.fa-google-plus-square {
+    background-color: #FFFFFF;
+    color:#DB4A39;
+}
+
+.fa-twitter-square {
+    background-color: #FFFFFF;
+    color:#00ACEE;
+}

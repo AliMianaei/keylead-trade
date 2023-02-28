@@ -6,23 +6,23 @@ const Login = () => {
 
   const [showPassword, setShowPassword] = useState(false);
   
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  
   
   return (
 
-    <section className='m-auto p-2 my-5' style={{maxWidth: '900px'}}>
-      <div className="row m-0 h-100 rounded overflow-hidden" style={{boxShadow: '0 0 3px #ccc'}}>
-        <div className="col-12 p-0 col-sm-5 col-md-6">
-          <img className='userForm-img objectFit-cover w-100' src="/images/bg-slider@2x.png" alt="" />
-        </div>
-        <div className="col-12 col-sm-7 col-md-6 py-5 px-4">
-          <div className="d-flex mb-4">
-            <h3 className='mb-0'>Sign in</h3>
+    <>
+      <div className="d-flex mb-4">
+            <h3 className='mb-0 haiti'>Sign in</h3>
             <div className="d-center gap-2 ms-auto">
-              <span className='d-center circle border-kangaroo pointer qube-2rem'>F</span>
-              <span className='d-center circle border-kangaroo pointer qube-2rem'>G</span>
+              <span className='d-center pointer'>
+                <i className="fa fa-facebook-square fs-28 rounded" aria-hidden="true"></i>
+              </span>
+              <span className='d-center pointer'>
+                <i className="fa fa-google-plus-square fs-28" aria-hidden="true"></i>
+              </span>
+              <span className='d-center pointer'>
+                <i className="fa fa-twitter-square fs-28" aria-hidden="true"></i>
+              </span>
             </div>
           </div>
 
@@ -66,11 +66,7 @@ const Login = () => {
           <div className="mt-4 text-center">
             <span className='charcoalGrey'>Not a member? </span> <Link to='/register' className='text-decoration-none darkPurple bold'>Sign up</Link>
           </div>
-        </div>
-
-
-      </div>
-    </section>
+    </>
   )
 }
 
