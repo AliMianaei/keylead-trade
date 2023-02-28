@@ -1,10 +1,17 @@
 import React from 'react'
+import Select from 'react-select'
 
 import Filter from '../../components/Filter'
 import FollowUs from '../../components/FollowUs'
+import { sort_style } from '../../components/selectStyle'
 import TopSellers from '../Home/TopSellers'
 import Product from './product'
 
+const sortItems = [
+  { value: 'price', label:'price'},
+  { value: 'date', label:'date'},
+  { value: 'p', label:'p'},
+];
 const Products = () => {
   return (
     <>
@@ -22,9 +29,14 @@ const Products = () => {
                                 <span>156 </span>
                                 <span>Result</span>
                             </div>
-                            <select name="" id="" placeholder='Sort by'>
-                                <option value="name">Name</option>
-                            </select>
+                            <Select
+                                id='sort' 
+                                name='sort' 
+                                options={sortItems} 
+                                isSearchable={false}
+                                defaultValue={{ label: 'sort', value: null }} 
+                                styles={sort_style}
+                            />
                             <img className='ms-auto pointer position-relative' style={{ top: '5px' }} width='126px' height='127px' src="/images/textbg/textbg-circle-text@2x.png" alt="" />
                         </div>
                     </div>

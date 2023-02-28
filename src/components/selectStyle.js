@@ -40,3 +40,53 @@ export const selectLanguage_style = {
     // console.log('clear')
   },
 };
+
+export const sort_style = {
+  control: (styles, {isFocused}) => ({ 
+    ...styles, 
+    backgroundColor: '#FFFFFF',
+    // boxShadow: '0 0 10px #6E467B inset', 
+    border: '1px solid #CCCCCC', 
+    borderColor: isFocused && '#CCCCCC', 
+    width:'130px', 
+    color:'#FFFFFF', 
+    boxShadow:'none',
+    borderRadius: '50px',
+    padding:'5px',
+    textAlign: 'center',
+    '&:hover': {
+      borderColor:'#CCCCCC', 
+    }
+  }),
+  menuList: (styles) => ({
+    ...styles,
+    padding: '0',
+  }),
+  menu: (styles) => ({
+    ...styles,
+    border: '1px solid #CCCCCC',
+    boxShadow:'none',
+    overflow:'hidden',
+  }),
+  option: (styles, {data, isDisabled, isFocused, isSelected}) => {
+    return {
+      ...styles,
+      backgroundColor: '#FFF44F',
+      backgroundColor: isSelected && '#6E467B22 !important',
+      textOverflow: 'ellipsis',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      borderBottom: '0.5px solid #EEEEEE',
+      color: isSelected ? '#6E467B' : '#888888',
+      fontWeight: isSelected ? 'bold' : 400 ,
+      cursor: isDisabled ? 'not-allowed' : 'default',
+      ':hover': {
+        backgroundColor: isFocused && '#6E467B09',
+      }
+    };
+  },
+  
+  clearValue: () => {
+    // console.log('clear')
+  },
+};

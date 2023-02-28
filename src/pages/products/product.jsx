@@ -61,7 +61,7 @@ const product = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-6 col-md-7 col-lg-9 ps-lg-5">
+                    <div className="col-12 col-sm-6 col-md-7 col-lg-9 ps-lg-5 d-flex flex-column">
                         <h3 className='fs-32 violaPurple mb-4 text-capitalize d-none d-sm-block'>{adv.name}</h3>
                         <div className="row m-0">
                             <div className="col-12 col-lg-5 text-capitalize p-0">
@@ -89,7 +89,7 @@ const product = () => {
                             </div>
                         </div>
                         <p className="my-4 product-description">{adv.description}</p>
-                        <div className="text-end">
+                        <div className="text-end mt-auto">
                             <button className='custom-btn btn-rosyPink-fill px-5'>Contact</button>
                         </div>
                     </div>

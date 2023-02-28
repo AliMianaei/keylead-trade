@@ -9,7 +9,7 @@ const Filter = () => {
             <AdvFilterBox title='Type' />
             <AdvFilterBox title='Variety' />
             <AdvFilterBox title='Location' />
-            <button className='custom-btn btn-softPurple-fill p-3 fs-18 m-auto m-sm-0 ms-xl-auto align-self-center w-75'>Show filter</button>
+            <button className='custom-btn btn-softPurple-fill p-2 fs-18 m-auto m-sm-0 ms-xl-auto align-self-center w-75'>Show filter</button>
         </div>
     </form>
   )
