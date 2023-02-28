@@ -11,7 +11,7 @@ import { select_style_lang  } from './selectStyle'
 
 const Header = () => {
   return (
-    <section className='mb-2 mb-lg-4 w-100 zIndex-max bg-white'>
+    <section className='w-100 zIndex-max bg-white'>
         <main className='max-container'>
             <div className="row m-0 py-2 mb-2">
                 <div className="col-6">

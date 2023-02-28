@@ -152,6 +152,11 @@
     height: 12rem;
 }
 
+.qube-2rem {
+    width: 2rem;
+    height: 2rem;
+}
+
 
 
 /*********** POLYGON ***********/
@@ -319,6 +324,9 @@
 .border-aluminium { border: 1px solid var(--aluminium) }
 .border-mercury { border: 1px solid var(--mercury) }
 .border-thistle { border: 1px solid var(--thistle) }
+.border-lightGrey { border: 1px solid var(--lightGrey) }
+
+
 
 
 
@@ -353,6 +361,9 @@
 .elfGreen { color: var(--elfGreen)}
 .rosyPink { color: var(--rosyPink)}
 .haiti { color: var(--haiti) !important}
+.charcoalGrey { color: var(--charcoalGrey)}
+
+
 
 
 
@@ -398,6 +409,7 @@
     border-radius: 50px;
     min-width: max-content;
     min-height: 40px;
+    line-height: 40px;
     padding: 0px 1.5rem;
     font-weight: bold;
 }
@@ -701,3 +713,52 @@
 .mainLayout-main { 
     flex:1 1 0 !important; 
 }
+
+.form-input {
+    border: 1px solid var(--lightGrey);
+    outline: none;
+    border-radius: 4px;
+    height: 40px;
+    color: var(--charcoalGrey);
+
+}
+
+.form-input:focus-within {
+    /* border: 1px solid var(--violaPurple); */
+    box-shadow: 0 0 3px var(--violaPurple)
+}
+
+input::-webkit-input-placeholder {
+    font-size: 0.825rem;
+    transform:translate3d(0, -3px,0)
+}
+
+.password-input {
+    border: none; 
+    outline: none;
+    color: var(--charcoalGrey);
+}
+
+
+@media (max-width: 575px) {
+    .userForm-img {
+        height: 200px !important;
+    }
+}
+
+.userForm-img {
+    height:100%;
+}
+
+.custom-checkbox {
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none; */
+
+    width: 1rem;
+    height: 1rem;
+    accent-color: var(--violaPurple);
+  
+}
+
