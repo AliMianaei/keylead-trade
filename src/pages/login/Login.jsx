@@ -28,8 +28,8 @@ const Login = () => {
 
           <form action="">
             <div className="d-flex flex-column">
-              <label htmlFor="username" className='mb-1 text-uppercase violaPurple fs-14'>username</label>
-              <input type="text" className='form-input d-center px-2 overflow-hidden' placeholder='username' />
+              <label htmlFor="email" className='mb-1 text-uppercase violaPurple fs-14'>email</label>
+              <input type="email" id='email' name='email' className='form-input d-center px-2 overflow-hidden' placeholder='email' />
               <span className='fs-12 text-danger' style={{height:'20px'}}>
                 {/* The fielid is required. */}
               </span>
@@ -38,7 +38,7 @@ const Login = () => {
             <div className="d-flex flex-column">
               <label htmlFor="password" className='mb-1 text-uppercase violaPurple fs-14'>password</label>
               <div className='form-input d-flex overflow-hidden'>
-                <input type={showPassword ? 'password' : 'text'} className='px-2 h-100 flex-grow-1 password-input' placeholder='password' />
+                <input type={showPassword ? 'password' : 'text'} id='password' name='password' className='px-2 h-100 flex-grow-1 password-input' placeholder='password' />
                 <div className='d-center px-2 pointer' style={{borderLeft: '1px solid #D9DADD'}} onClick={() => setShowPassword(!showPassword)}>
                   <i className={`fa violaPurple ${showPassword ? 'fa-eye' : 'fa-eye-slash'}`} aria-hidden="true"></i>
                 </div>
