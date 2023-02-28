@@ -44,18 +44,19 @@ export const selectLanguage_style = {
 export const sort_style = {
   control: (styles, {isFocused}) => ({ 
     ...styles, 
-    backgroundColor: '#FFFFFF',
+    // backgroundColor: '#FFFFFF',
+    background: 'linear-gradient(180deg, var(--white), var(--mercury))',
     // boxShadow: '0 0 10px #6E467B inset', 
-    border: '1px solid #CCCCCC', 
-    borderColor: isFocused && '#CCCCCC', 
+    border: '1px solid #E1E2E3', 
+    borderColor: isFocused && '#E1E2E3', 
     width:'130px', 
-    color:'#FFFFFF', 
+    color:'#6E467B', 
     boxShadow:'none',
     borderRadius: '50px',
-    padding:'5px',
+    padding:'3px',
     textAlign: 'center',
     '&:hover': {
-      borderColor:'#CCCCCC', 
+      borderColor:'#E1E2E3', 
     }
   }),
   menuList: (styles) => ({
