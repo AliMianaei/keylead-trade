@@ -91,3 +91,70 @@ export const sort_style = {
     // console.log('clear')
   },
 };
+
+export const selectCode_style = {
+  control: (styles, {isFocused}) => ({ 
+    ...styles, 
+    backgroundColor: '#FFFFFF', 
+    border: '1px solid #D9DADD', 
+    borderColor: isFocused && '#D9DADD', 
+    width:'100px', 
+    height: '100%',
+    color:'#3D3E42', 
+    textAlign: 'center',
+    boxShadow:'none',
+    fontSize: '0.875rem',
+    '&:hover': {
+      borderColor:'#D9DADD', 
+    }
+  }),
+  menuList: (styles) => ({
+    ...styles,
+    padding: '0',
+  }),
+  menu: (styles) => ({
+    ...styles,
+    border: '1px solid #D9DADD',
+    boxShadow:'none',
+    overflow:'hidden',
+  }),
+  
+  valueContainer: (styles) => ({
+    ...styles,
+    padding:'0 5px',
+  }),
+
+  indicatorsContainer: (styles) => ({
+    ...styles,
+    width:'30px',
+    display:'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+  }),
+
+  indicatorSeparator: (styles) => ({
+    ...styles,
+    position:'relative',
+    left:'5px',
+    border: '1px solid #D9DADD'
+  }),
+  
+  option: (styles, {data, isDisabled, isFocused, isSelected}) => {
+    return {
+      ...styles,
+      backgroundColor: '#FFFFFF',
+      backgroundColor: isSelected && '#6E467B22 !important',
+      borderBottom: '0.5px solid #EEEEEE',
+      color: isSelected ? '#6E467B' : '#888888',
+      fontWeight: isSelected ? 'bold' : 400 ,
+      cursor: isDisabled ? 'not-allowed' : 'default',
+      ':hover': {
+        backgroundColor: isFocused && '#6E467B09',
+      }
+    };
+  },
+  
+  clearValue: () => {
+    // console.log('clear')
+  },
+};

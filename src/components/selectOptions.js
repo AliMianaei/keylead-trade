@@ -38,3 +38,28 @@ export const languages = [
             </div>
     }
 ];
+
+
+export const codes = [
+    {
+        value: '+1', 
+        label:  <div className='d-flex justify-content-between align-items-center w-100 fs-14'>
+                <span className="fi fi-us"></span>
+                <span>+1</span> 
+            </div>
+    },
+    {
+        value: '+39', 
+        label:  <div className='d-flex justify-content-between align-items-center w-100 fs-14'>
+                <span className="fi fi-it"></span>
+                <span>+39</span> 
+            </div>
+    },
+    {
+        value: '+98', 
+        label:  <div className='d-flex justify-content-between align-items-center w-100 fs-14'>
+                <span className="fi fi-ir"></span>
+                <span>+98</span> 
+            </div>
+    }
+];
