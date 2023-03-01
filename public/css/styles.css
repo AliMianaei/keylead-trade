@@ -134,6 +134,15 @@
 
 /*********** Dimension ***********/
 
+.h-0 {
+    height: 0px;
+}
+.maxh-500 {
+    max-height: 500px;
+}
+.maxh-0 {
+    max-height: 0px;
+}
 .minh-100 {
     min-height: 100%;
 }
@@ -238,6 +247,12 @@
 }
 
 
+/*********** POSITION ***********/
+
+.sticky-top {
+    position: fixed !important;
+    top:0 !important;
+}
 
 
 

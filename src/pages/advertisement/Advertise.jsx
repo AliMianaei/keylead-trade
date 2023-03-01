@@ -4,10 +4,12 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 import FollowUs from '../../components/FollowUs'
 
 const Advertise = () => {
+  const { pathname } = useLocation()
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-  const { pathname } = useLocation()
+  
   return (
     <>
       <section className='max-container'>

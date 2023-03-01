@@ -1,6 +1,4 @@
 import React from 'react';
-
-import Header from '../../components/Header';
 import Category from './Category';
 import Innovation from './Innovation';
 import PhotoBox from './PhotoBox';
@@ -12,18 +10,9 @@ import Events from './Events';
 import Statistics from './Statistics';
 import SuppliersRegion from './SuppliersRegion';
 
-import { useLocation } from 'react-router';
-
 const Home = () => {
-  // const location = useLocation();
-  // const {pathname} = location;
-
-  const {pathname} = useLocation();
-
-  console.log(pathname)
   return (
     <div className='position-relative'>
-      {/* <Header/> */}
       <PhotoBox/>
       <Category/>
       <TopProducts/>
@@ -34,8 +23,6 @@ const Home = () => {
       <Events/>
       <Statistics/>
       <SuppliersRegion/>
-      {/* <Footer/> */}
-      {/* <Menubar active={pathname} /> */}
     </div>
   )
 }
