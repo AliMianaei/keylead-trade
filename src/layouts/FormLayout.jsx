@@ -13,7 +13,7 @@ const FormLayout = () => {
         <div className="col-12 p-0 col-sm-5 col-md-6">
           <img className='userForm-img objectFit-cover w-100' src="/images/bg-form.png" alt="" />
         </div>
-        <div className="col-12 col-sm-7 col-md-6 py-5 px-4">
+        <div className="col-12 col-sm-7 col-md-6 py-5 px-4 px-lg-5">
           <Outlet/>
         </div>
 

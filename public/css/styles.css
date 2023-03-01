@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Lato;
+    /* scroll-behavior: auto !important; */
 }
 
 :root {
@@ -166,6 +167,9 @@
     height: 2rem;
 }
 
+.resize-none {
+    resize: none;
+}
 
 
 /*********** POLYGON ***********/
@@ -746,6 +750,11 @@
 input::-webkit-input-placeholder {
     font-size: 0.825rem;
     transform:translate3d(0, -3px,0)
+}
+
+.form-input::-webkit-input-placeholder {
+    font-size: 0.825rem;
+    /* transform:translate3d(0, -3px,0) */
 }
 
 .password-input {

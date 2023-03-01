@@ -28,8 +28,8 @@ const Login = () => {
 
           <form action="">
             <div className="d-flex flex-column">
-              <label htmlFor="email" className='mb-1 text-uppercase violaPurple fs-14'>email</label>
-              <input type="email" id='email' name='email' className='form-input d-center px-2 overflow-hidden' placeholder='email' />
+              <label htmlFor="email" className='mb-1 text-uppercase violaPurple fs-14'>e-mail</label>
+              <input type="email" id='email' name='email' className='form-input d-center px-2 overflow-hidden' placeholder='e-mail' />
               <span className='fs-12 text-danger' style={{height:'20px'}}>
                 {/* The fielid is required. */}
               </span>

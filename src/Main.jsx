@@ -10,6 +10,7 @@ import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import MainLayout from './layouts/MainLayout';
 import FormLayout from './layouts/FormLayout';
+import ContactUs from './pages/contact/ContactUs';
 
 const Main = () => {
   return (
@@ -25,6 +26,7 @@ const Main = () => {
         <Route element={<FormLayout/>}>
           <Route path='login' element={<Login/>} />
           <Route path='register' element={<Register/>} />
+          <Route path='contact-us' element={<ContactUs/>} />
         </Route>
       </Route>
     </Routes>
