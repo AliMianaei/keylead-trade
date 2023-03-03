@@ -10,7 +10,10 @@ import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import MainLayout from './layouts/MainLayout';
 import FormLayout from './layouts/FormLayout';
-import ContactUs from './pages/contact/ContactUs';
+import ContactUs from './pages/ContactUs';
+import About from './pages/About';
+import Blog from './pages/Blog';
+import Services from './pages/Services';
 
 const Main = () => {
   return (
@@ -28,6 +31,9 @@ const Main = () => {
           <Route path='register' element={<Register/>} />
           <Route path='contact-us' element={<ContactUs/>} />
         </Route>
+        <Route path='about' element={<About/>} />
+        <Route path='blog' element={<Blog/>} />
+        <Route path='services' element={<Services/>} />
       </Route>
     </Routes>
   )

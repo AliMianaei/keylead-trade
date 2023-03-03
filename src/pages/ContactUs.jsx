@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Select from 'react-select'
-import { selectCode_style } from '../../components/selectStyle'
-import { codes } from '../../components/selectOptions'
+import { selectCode_style } from '../components/selectStyle'
+import { codes } from '../components/selectOptions'
 
 const ContactUs = () => {
 
