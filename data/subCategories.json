@@ -1,0 +1,160 @@
+{
+    "subCategories": [
+        { 
+            "id": 0,
+            "cat": "fruits",
+            "subCat": [
+                {
+                    "id": 0,
+                    "type": "fresh",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "apricat",
+                            "imgUrl": "/images/icons-product/fruit@2x.png",
+                            "imgAlt": "apricat"
+                        },
+                        {
+                            "id": 1,
+                            "name": "apple",
+                            "imgUrl": "/images/icons-product/apple@2x.png",
+                            "imgAlt": "apple"
+                        },
+                        {
+                            "id": 2,
+                            "name": "orange",
+                            "imgUrl": "/images/icons-product/orange@2x.png",
+                            "imgAlt": "orange"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": "frozen",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "fro-1",
+                            "imgUrl": "/images/icons-product/fruit@2x.png",
+                            "imgAlt": "apricat"
+                        },
+                        {
+                            "id": 1,
+                            "name": "fro-2",
+                            "imgUrl": "/images/icons-product/apple@2x.png",
+                            "imgAlt": "apple"
+                        },
+                        {
+                            "id": 2,
+                            "name": "fro-3",
+                            "imgUrl": "/images/icons-product/orange@2x.png",
+                            "imgAlt": "orange"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "dried",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "dri-1",
+                            "imgUrl": "/images/icons-product/fruit@2x.png",
+                            "imgAlt": "apricat"
+                        },
+                        {
+                            "id": 1,
+                            "name": "dr-2",
+                            "imgUrl": "/images/icons-product/apple@2x.png",
+                            "imgAlt": "apple"
+                        },
+                        {
+                            "id": 2,
+                            "name": "dr-3",
+                            "imgUrl": "/images/icons-product/orange@2x.png",
+                            "imgAlt": "orange"
+                        }
+                    ]
+                }
+            ]
+        },
+        { 
+            "id": 1,
+            "cat": "vegetables",
+            "subCat": [
+                {
+                    "id": 0,
+                    "type": "fresh",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "strawberry",
+                            "imgUrl": "/images/icons-product/fruit@2x.png",
+                            "imgAlt": "apricat"
+                        },
+                        {
+                            "id": 1,
+                            "name": "apple",
+                            "imgUrl": "/images/icons-product/apple@2x.png",
+                            "imgAlt": "apple"
+                        },
+                        {
+                            "id": 2,
+                            "name": "orange",
+                            "imgUrl": "/images/icons-product/orange@2x.png",
+                            "imgAlt": "orange"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": "frozen",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "tomato",
+                            "imgUrl": "/images/products/tomato_old.png",
+                            "imgAlt": "apricat"
+                        },
+                        {
+                            "id": 1,
+                            "name": "apple",
+                            "imgUrl": "/images/products/apple_old@2x.png",
+                            "imgAlt": "apple"
+                        },
+                        {
+                            "id": 2,
+                            "name": "orange",
+                            "imgUrl": "/images/products/orange.png",
+                            "imgAlt": "orange"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "dried",
+                    "items": [
+                        {
+                            "id": 0,
+                            "name": "v-dri-1",
+                            "imgUrl": "/images/icons-product/fruit@2x.png",
+                            "imgAlt": "apricat"
+                        },
+                        {
+                            "id": 1,
+                            "name": "apple",
+                            "imgUrl": "/images/icons-product/apple@2x.png",
+                            "imgAlt": "apple"
+                        },
+                        {
+                            "id": 2,
+                            "name": "orange",
+                            "imgUrl": "/images/icons-product/orange@2x.png",
+                            "imgAlt": "orange"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
