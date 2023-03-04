@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.900c4ce6.js",
-    "index.html": "/index.html",
-    "main.900c4ce6.js.map": "/static/js/main.900c4ce6.js.map"
+    "main.js": "/keylead-trade/static/js/main.2da40268.js",
+    "index.html": "/keylead-trade/index.html",
+    "main.2da40268.js.map": "/keylead-trade/static/js/main.2da40268.js.map"
   },
   "entrypoints": [
-    "static/js/main.900c4ce6.js"
+    "static/js/main.2da40268.js"
   ]
 }
