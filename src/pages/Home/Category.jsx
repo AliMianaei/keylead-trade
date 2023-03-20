@@ -31,7 +31,7 @@ const Category = () => {
           <main className="max-container pt-2 pt-lg-4 pb-0 pb-lg-2">
               <div className="row m-0">
                 <div className="col-12 overflow-auto pb-2 px-0">
-                  <ul className='list-unstyled d-flex justify-content-between pb-2 m-0 px-2' style={{gap:'26px', width:'max-content', minWidth:'100%'}}>
+                  <ul className='list-unstyled d-flex justify-content-between pb-2 m-0 px-2 border' style={{gap:'26px', width:'max-content', minWidth:'100%'}}>
                     {productsCategories.map((category, index) => (
                         <li key={category.id} className={`product-item d-center flex-column pointer ${selectedItem === category.id ? 'gradient-darkPurple' : 'gradient-lightPurple'}`} onClick={() => handleSubItems(category.id)}>
                         <div className="image-wrapper d-center mb-1">
